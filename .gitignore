@@ -1,0 +1,6 @@
+node_modules
+.env
+.env.local
+gdrive-credential.json
+public/sync-status.json
+discuss/*

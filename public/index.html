@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derawan Archipelago | Visual Encyclopedia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=DM+Sans:wght@300;400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+  
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- External JS Feature Modules -->
+  <script src="/js/cursor.js" defer></script>
+  <script src="/js/modules/animations.js" defer></script>
+  <script src="/js/modules/slider.js" defer></script>
+  <script src="/js/modules/lightbox.js" defer></script>
+  <script src="/js/modules/galleryApi.js" defer></script>
+  <script src="/js/gallery.js" defer></script>
+</head>
+<body>
+  <div id="wipe"></div>
+  <div id="cur"></div>
+  <div id="cur-ring"></div>
+
+  <!-- ══ HERO ═══════════════════════════════════════ -->
+  <header class="hero" id="hero">
+    <!-- LEFT: pure content panel -->
+    <div class="hero-left">
+      <div class="hero-glow"></div>
+
+      <div class="hero-eyebrow">
+        <div class="eyebrow-line"></div>
+        <span class="eyebrow-text">Berau · East Kalimantan · Indonesia</span>
+      </div>
+
+      <h1 class="hero-h1">
+        <div class="line"><span>Derawan</span></div>
+        <div class="line"><span>Encyclopedia</span></div>
+      </h1>
+
+      <div class="hero-rule"></div>
+
+      <p class="hero-desc">
+        An immersive exploration of biodiversity, conservation, and the living wonders beneath the Derawan Archipelago — one of Earth's greatest marine sanctuaries.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#intro" class="h-btn-primary">Begin Exploration</a>
+        <a href="#gallery" class="h-btn-ghost">View Gallery</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="meta-item">
+          <div class="meta-pip"></div>
+          <span class="meta-text">2°17′N · 118°35′E<em>Berau Regency</em></span>
+        </div>
+        <div class="meta-item">
+          <div class="meta-pip"></div>
+          <span class="meta-text">870+ Fish Species<em>·</em> 460+ Coral Species</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: full-bleed image -->
+    <div class="hero-right">
+      <img
+        class="hero-bg"
+        src="assets/img/aset_016.jpg"
+        alt="Derawan Archipelago"
+        fetchpriority="high"
+        decoding="async"
+        onerror="this.onerror=null;this.src='assets/img/aset_006.jpg'"
+      >
+      <div class="hero-right-top"></div>
+
+      <div class="hero-coord-tag">2°17′N · 118°35′E</div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-num">870<span class="stat-sup">+</span></div>
+          <div class="stat-lbl">Fish<br>Species</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">4</div>
+          <div class="stat-lbl">Crown<br>Islands</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">30<span class="stat-sup">m</span></div>
+          <div class="stat-lbl">Water<br>Visibility</div>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <div class="scroll-track"><div class="scroll-run"></div></div>
+        <span class="scroll-lbl">Scroll</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ INTRO ═════════════════════════════════════ -->
+  <section id="intro" class="intro-section blend-down-sand-w">
+    <div class="container">
+      <div class="intro-inner">
+        <div class="sr fx-left">
+          <div class="intro-line"></div>
+          <span class="mono gold" style="display:block;margin-bottom:.9rem;">Introduction</span>
+          <h2 style="margin-bottom:1.8rem;">A Hidden Paradise<br>in East Borneo</h2>
+          <p class="intro-text">The Derawan Archipelago is a cluster of islands nestled in Berau Regency, East Kalimantan. Renowned for its breathtaking underwater world, these islands are home to thousands of marine species — from green sea turtles and stingless jellyfish to giant manta rays. Each island weaves together natural splendour, indigenous wisdom, and lasting conservation.</p>
+          <a href="#islands" class="btn">Discover the Islands <i class="ph ph-arrow-right"></i></a>
+        </div>
+        <div class="intro-visual sr fx-right" data-parallax="intro">
+          <img src="assets/img/aset_019.jpg" alt="Derawan aerial view" class="intro-img-main" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_009.jpg'">
+          <img src="assets/img/aset_001.jpg" alt="Coral detail" class="intro-img-accent" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_002.jpg'">
+          <div class="intro-badge mono">World Class<br>Biodiversity<br>Hotspot</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CARDS ══════════════════════════════════════ -->
+  <section class="cards-section top-from-sand-w blend-down-sand-w">
+    <div class="container">
+      <div class="section-header sr"><span class="mono gold section-eyebrow">Why Derawan</span><h2>Six Reasons to Visit</h2></div>
+      <div class="cards-grid">
+        <div class="card sr d1"><div class="card-bg-num">01</div><div class="card-shimmer"></div><i class="ph ph-fish card-icon"></i><div class="card-title">Marine Biodiversity</div><p class="card-text">Over 870 fish species and 460 coral species make Derawan one of the world's greatest marine biodiversity hotspots.</p></div>
+        <div class="card sr d2"><div class="card-bg-num">02</div><div class="card-shimmer"></div><i class="ph ph-moon-stars card-icon"></i><div class="card-title">Sea Turtle Nesting</div><p class="card-text">Witness green and hawksbill sea turtles come ashore nearly every night — a rare and unforgettable encounter.</p></div>
+        <div class="card sr d3"><div class="card-bg-num">03</div><div class="card-shimmer"></div><i class="ph ph-drop card-icon"></i><div class="card-title">Jellyfish Lake</div><p class="card-text">Kakaban hosts one of only two stingless jellyfish lakes on Earth — a living testament to isolated evolution.</p></div>
+        <div class="card sr d1"><div class="card-bg-num">04</div><div class="card-shimmer"></div><i class="ph ph-waves card-icon"></i><div class="card-title">Diving &amp; Snorkelling</div><p class="card-text">Visibility up to 30 metres and calm currents create perfect conditions for beginners and expert divers alike.</p></div>
+        <div class="card sr d2"><div class="card-bg-num">05</div><div class="card-shimmer"></div><i class="ph ph-users card-icon"></i><div class="card-title">Bajo Sea Culture</div><p class="card-text">Connect with the Bajo people — nomadic sea dwellers whose traditions and maritime wisdom span generations.</p></div>
+        <div class="card sr d3"><div class="card-bg-num">06</div><div class="card-shimmer"></div><i class="ph ph-leaf card-icon"></i><div class="card-title">Ecotourism</div><p class="card-text">Every visit directly supports turtle conservation, coral restoration, and sustainable livelihoods for local communities.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ STATS ══════════════════════════════════════ -->
+  <section class="stats-section top-from-sand-w blend-down-deep">
+    <div class="container">
+      <div class="section-header sr" style="color:#fff;"><span class="mono section-eyebrow" style="color:var(--gold-l-orig);">By the Numbers</span><h2 style="color:#fff;">Facts &amp; Figures</h2></div>
+      <div class="stats-grid">
+        <div class="stat-item sr d1"><span class="stat-num-s" data-count="4" data-suffix="">–</span><div class="stat-lbl">Main Islands</div></div>
+        <div class="stat-item sr d1"><span class="stat-num-s" data-count="870" data-suffix="+">–</span><div class="stat-lbl">Fish Species</div></div>
+        <div class="stat-item sr d2"><span class="stat-num-s" data-count="460" data-suffix="+">–</span><div class="stat-lbl">Coral Species</div></div>
+        <div class="stat-item sr d2"><span class="stat-num-s" data-count="30" data-suffix="m">–</span><div class="stat-lbl">Visibility</div></div>
+        <div class="stat-item sr d3"><span class="stat-num-s" data-count="2" data-suffix="">–</span><div class="stat-lbl">Turtle Species</div></div>
+        <div class="stat-item sr d3"><span class="stat-num-s" data-sym="∞">–</span><div class="stat-lbl">Natural Wonders</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ ISLANDS ════════════════════════════════════ -->
+  <section id="islands" class="islands-section">
+    <div class="islands-intro sr">
+      <span class="mono gold section-eyebrow">The Archipelago</span>
+      <h2 style="color:#fff;margin-top:.6rem;">Four Crown Jewels</h2>
+      <p style="color:rgba(255,255,255,.5);max-width:560px;margin:.8rem auto 0;">Each island carries its own character and wonder, forming an irreplaceable harmony</p>
+    </div>
+    <div class="islands-track-wrap" id="islandsWrap">
+      <div class="islands-track" id="islandsTrack">
+        <div class="island-slide active"><img src="assets/img/aset_006.jpg" alt="Pulau Derawan" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_007.jpg'"><div class="island-slide-overlay"></div><div class="island-slide-content"><div class="sc-wrap"><span class="slide-eyebrow">01 / 04 — DERAWAN</span><h3>Pulau Derawan</h3><p>The gateway island of the archipelago. Derawan's white-sand shores let you swim alongside friendly green sea turtles by day. At night, dozens of turtles emerge from the sea to nest on the very same beach.</p><div class="tag-row"><span class="tag">Green Turtles</span><span class="tag">Snorkelling</span><span class="tag">Overwater Resort</span><span class="tag">Sunset Pier</span></div></div></div></div>
+        <div class="island-slide"><img src="assets/img/aset_029.jpeg" alt="Pulau Sangalaki" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_028.jpeg'"><div class="island-slide-overlay"></div><div class="island-slide-content"><div class="sc-wrap"><span class="slide-eyebrow">02 / 04 — SANGALAKI</span><h3>Pulau Sangalaki</h3><p>A world-renowned manta ray sanctuary. Sangalaki's "Manta Point" sees aggregations of oceanic giants year-round. A weathered colonial lighthouse crowns the interior — an iconic photography destination.</p><div class="tag-row"><span class="tag">Manta Rays</span><span class="tag">Scuba Diving</span><span class="tag">Hawksbill Turtle</span><span class="tag">Historic Lighthouse</span></div></div></div></div>
+        <div class="island-slide"><img src="assets/img/aset_033.jpeg" alt="Pulau Kakaban" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_008.jpg'"><div class="island-slide-overlay"></div><div class="island-slide-content"><div class="sc-wrap"><span class="slide-eyebrow">03 / 04 — KAKABAN</span><h3>Pulau Kakaban</h3><p>Home to the legendary Jellyfish Lake. A 5 km² inland saltwater lake holds millions of stingless jellyfish — an isolated population that lost their venom through millennia of evolution. Only two such lakes exist on Earth.</p><div class="tag-row"><span class="tag">Jellyfish Lake</span><span class="tag">Jungle Trek</span><span class="tag">Rare Ecosystem</span><span class="tag">Conservation Zone</span></div></div></div></div>
+        <div class="island-slide"><img src="assets/img/aset_017.jpg" alt="Pulau Maratua" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_027.jpeg'"><div class="island-slide-overlay"></div><div class="island-slide-content"><div class="sc-wrap"><span class="slide-eyebrow">04 / 04 — MARATUA</span><h3>Pulau Maratua</h3><p>The largest atoll in the archipelago, cradling a mesmerising turquoise lagoon. Maratua offers world-class wall diving, pristine hidden beaches, and exclusive over-water resorts — also a base for international marine biology research.</p><div class="tag-row"><span class="tag">Luxury Resorts</span><span class="tag">Wall Diving</span><span class="tag">Blue Lagoon</span><span class="tag">Research Station</span></div></div></div></div>
+      </div>
+    </div>
+    <div class="slider-bar">
+      <div class="slider-dots" id="sliderDots">
+        <div class="dot active" onclick="goToSlide(0)"><div class="dot-fill"></div></div>
+        <div class="dot" onclick="goToSlide(1)"><div class="dot-fill"></div></div>
+        <div class="dot" onclick="goToSlide(2)"><div class="dot-fill"></div></div>
+        <div class="dot" onclick="goToSlide(3)"><div class="dot-fill"></div></div>
+      </div>
+      <div class="s-counter mono">Slide <em id="slideNum">01</em> / 04</div>
+      <div style="display:flex;gap:1rem;">
+        <button class="slider-btn" onclick="prevSlide()" aria-label="Previous"><i class="ph ph-arrow-left"></i></button>
+        <button class="slider-btn" onclick="nextSlide()" aria-label="Next"><i class="ph ph-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CULTURE ════════════════════════════════════ -->
+  <section id="culture" class="culture-section">
+    <div class="container">
+      <div class="culture-grid">
+        <div class="sr fx-left">
+          <span class="mono gold section-eyebrow">The Sea Nomads</span>
+          <h2>Living with the Tides</h2>
+          <p style="margin:2rem 0; color:rgba(255,255,255,.6);">The Bajo people of Derawan are legendary sea nomads who have called these waters home for centuries. Their lives are inextricably linked to the pulse of the ocean, living in houses built on stilts and possessing an almost supernatural ability to navigate and dive.</p>
+          <div class="culture-pips">
+            <div class="culture-pip"><span class="pip-val">800+</span><span class="pip-lbl">Bajo Residents</span></div>
+            <div class="culture-pip"><span class="pip-val">5min</span><span class="pip-lbl">Breath Hold</span></div>
+            <div class="culture-pip"><span class="pip-val">65m</span><span class="pip-lbl">Traditional Dive</span></div>
+          </div>
+          <a href="#" class="btn btn-white" style="margin-top:3.5rem;">Explore Heritage <i class="ph ph-arrow-right"></i></a>
+        </div>
+        <div class="culture-visual sr fx-right" data-parallax="culture">
+          <img src="assets/img/aset_010.jpg" alt="Bajo Village" class="culture-img" loading="lazy" decoding="async">
+          <img src="assets/img/aset_022.jpeg" alt="Traditional Boat" class="culture-img-accent" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ STORIES ════════════════════════════════════ -->
+  <section id="stories" class="stories-section">
+    <div class="container">
+      <div class="section-header sr">
+        <span class="mono gold section-eyebrow">Tales of the Deep</span>
+        <h2>Legends of the Archipelago</h2>
+      </div>
+      <div class="stories-grid">
+        <div class="story-card sr d1">
+          <span class="story-badge">Legend</span>
+          <i class="ph ph-drop story-icon"></i>
+          <h3>The Stingless Secret</h3>
+          <p>Millennia ago, a saltwater lake was trapped within Kakaban. Isolated from predators, the jellyfish slowly lost their sting, creating a surreal garden of gentle, pulsating life found nowhere else.</p>
+        </div>
+        <div class="story-card sr d2">
+          <span class="story-badge">Heritage</span>
+          <i class="ph ph-compass story-icon"></i>
+          <h3>Ancient Navigators</h3>
+          <p>Without charts or GPS, the Bajo elders read the language of the stars and the subtle shift of the currents, navigating the vast Celebes Sea with a wisdom passed down through heartbeats.</p>
+        </div>
+        <div class="story-card sr d3">
+          <span class="story-badge">Nature</span>
+          <i class="ph ph-moon story-icon"></i>
+          <h3>The Turtle's Promise</h3>
+          <p>Locals believe that every turtle that returns to Derawan's shores carries a blessing from the ancestors. To protect the turtle is to protect the prosperity of the entire island community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ EXPLORE ════════════════════════════════════ -->
+  <section id="explore" class="explore-section">
+    <div class="container">
+      <div class="section-header sr">
+        <span class="mono gold section-eyebrow">Interactive Discovery</span>
+        <h2>Hotspot Explorer</h2>
+        <p style="color:var(--muted);max-width:560px;margin:.8rem auto 0;">Click on the map markers to discover hidden wonders across the archipelago's crown jewels</p>
+      </div>
+
+      <div class="explore-tabs sr d1">
+        <button class="explore-tab active" data-island="derawan">Derawan</button>
+        <button class="explore-tab" data-island="sangalaki">Sangalaki</button>
+        <button class="explore-tab" data-island="kakaban">Kakaban</button>
+        <button class="explore-tab" data-island="maratua">Maratua</button>
+      </div>
+
+      <div class="explore-display sr d2">
+        <img src="assets/img/aset_006.jpg" alt="Derawan Map" class="explore-bg" id="exploreBg">
+        <div class="hotspot-wrap" id="hotspotWrap">
+          <div class="hotspot" style="top:40%; left:30%;">
+            <div class="hotspot-dot"></div>
+            <div class="hotspot-info">
+              <h4>Turtle Point</h4>
+              <p>A prime nesting ground where green turtles return every night under the moonlit tide.</p>
+            </div>
+          </div>
+          <div class="hotspot" style="top:65%; left:70%;">
+            <div class="hotspot-dot"></div>
+            <div class="hotspot-info">
+              <h4>Old Pier</h4>
+              <p>An iconic wooden structure perfect for sunset photography and shallow snorkelling.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ GALLERY ════════════════════════════════════ -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header sr">
+        <span class="mono gold section-eyebrow">Visual Collection</span><h2>Derawan Gallery</h2>
+        <p style="color:var(--muted);max-width:500px;margin:.8rem auto 0;">Photos loaded live from the dive-site archive — auto-updates when new files are added</p>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-cat="all">All</button>
+          <button class="filter-btn" data-cat="underwater">Underwater</button>
+          <button class="filter-btn" data-cat="wildlife">Wildlife</button>
+          <button class="filter-btn" data-cat="landscape">Landscape</button>
+        </div>
+      </div>
+      <div class="gallery-status" id="galleryStatus"></div>
+      <div class="masonry" id="galleryGrid">
+        <div class="g-skeleton" style="height:220px"></div>
+        <div class="g-skeleton" style="height:300px"></div>
+        <div class="g-skeleton" style="height:180px"></div>
+        <div class="g-skeleton" style="height:260px"></div>
+        <div class="g-skeleton" style="height:220px"></div>
+        <div class="g-skeleton" style="height:320px"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CONSERVATION ═══════════════════════════════ -->
+  <section id="conservation" class="conservation-section top-from-sand">
+    <div class="container">
+      <div class="section-header sr"><span class="mono gold section-eyebrow">Sustainability</span><h2>Conservation Efforts</h2><p style="color:var(--muted);max-width:600px;margin:.8rem auto 0;">A commitment to protecting the natural life and marine ecosystems of Derawan for future generations</p></div>
+      <div class="conservation-grid">
+        <div class="con-img-wrap sr fx-left" data-parallax="conservation">
+          <img src="assets/img/aset_015.jpg" alt="Conservation" class="con-img-main" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_009.jpg'">
+          <img src="assets/img/aset_025.jpeg" alt="Marine life detail" class="con-img-detail" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_026.jpeg'">
+        </div>
+        <div class="sr fx-right" style="padding-top:2rem;">
+          <span class="mono gold" style="display:block;margin-bottom:1rem;">Our Programme</span>
+          <h3 style="margin-bottom:1.5rem;">Integrated Conservation &amp; Community</h3>
+          <p>Derawan's conservation programme works in tandem with local communities and is supported by international organisations. Every visitor directly contributes to preserving these irreplaceable marine ecosystems.</p>
+          <ul class="con-list">
+            <li><i class="ph ph-shield-check con-icon"></i><div><strong>Sea Turtle Protection</strong><p>Daily monitoring of nesting turtles and protected incubation of eggs until hatching.</p></div></li>
+            <li><i class="ph ph-plant con-icon"></i><div><strong>Coral Reef Restoration</strong><p>Coral transplantation and artificial reef programmes rebuild damaged reef structures.</p></div></li>
+            <li><i class="ph ph-recycle con-icon"></i><div><strong>Zero-Waste Tourism</strong><p>Plastic reduction campaigns and responsible waste management across all islands.</p></div></li>
+            <li><i class="ph ph-users-three con-icon"></i><div><strong>Community Empowerment</strong><p>Training and mentoring local communities in sustainable ecotourism practices.</p></div></li>
+          </ul>
+          <div class="supported-by">
+            <span class="mono sup-label">Supported By</span>
+            <div class="logos-row">
+              <img src="logo_ylbkd.png" alt="YLBKD" class="partner-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="logo-fallback">YLBKD</div>
+              <img src="logo_gc.png" alt="Green Coral" class="partner-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="logo-fallback">Global Conservation</div>
+              <img src="logo_ps.png" alt="ProtectedSeas" class="partner-logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="logo-fallback">ProtectedSeas</div>
+            </div>
+          </div>
+          <a href="#" class="btn" style="margin-top:2.5rem;">Learn More <i class="ph ph-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ DEPTH ═══════════════════════════════════════ -->
+  <section class="depth-section top-from-white blend-down-deep">
+    <div class="container"><div class="depth-inner">
+      <div class="depth-panels sr fx-left" id="depthPanels">
+        <div class="depth-accent da-1"></div><div class="depth-accent da-2"></div>
+        <div class="depth-panel dp-1" data-speed=".025"><img src="assets/img/aset_027.jpeg" alt="Underwater depth" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_034.jpeg'"></div>
+        <div class="depth-panel dp-2" data-speed=".05"><img src="assets/img/aset_018.jpg" alt="Marine life" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_017.jpg'"></div>
+        <div class="depth-panel dp-3" data-speed=".08"><img src="assets/img/aset_008.jpg" alt="Coral detail" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/aset_013.jpg'"></div>
+      </div>
+      <div class="depth-content sr fx-right">
+        <span class="mono" style="color:var(--gold-orig);display:block;margin-bottom:1rem;">Under the Surface</span>
+        <h2 style="color:#fff;margin-bottom:1.6rem;">A World Within<br>a World</h2>
+        <p>Below Derawan's glassy surface lies a labyrinth of colour and life. Ancient coral cathedrals rise from the seabed, home to creatures found nowhere else on Earth.</p>
+        <p>Currents here are gentle, temperatures warm, and the sheer density of marine life is humbling. World-class dive instructors operate across all four islands.</p>
+        <div class="depth-facts">
+          <div class="depth-fact sr d1"><div class="depth-fact-num">30m</div><div class="depth-fact-lbl">Water Visibility</div></div>
+          <div class="depth-fact sr d2"><div class="depth-fact-num">27°C</div><div class="depth-fact-lbl">Average Sea Temp</div></div>
+          <div class="depth-fact sr d1"><div class="depth-fact-num">12+</div><div class="depth-fact-lbl">Dive Sites</div></div>
+          <div class="depth-fact sr d2"><div class="depth-fact-num">40m</div><div class="depth-fact-lbl">Max Wall Depth</div></div>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- ══ GUIDE ═══════════════════════════════════════ -->
+  <section class="guide-section top-from-deep">
+    <div class="container">
+      <div class="section-header sr" style="color:#fff;"><span class="mono section-eyebrow" style="color:var(--gold-orig);">Travel Guide</span><h2 style="color:#fff;">Best Time to Visit</h2></div>
+      <div class="season-grid">
+        <div class="season-card sr d1"><i class="ph ph-sun"></i><h3>March — October</h3><p>Dry season with calm seas, clear skies, and peak underwater visibility.</p></div>
+        <div class="season-card sr d2"><i class="ph ph-moon-stars"></i><h3>Year-Round</h3><p>Sea turtles nest on Derawan's beaches almost every night in any season.</p></div>
+        <div class="season-card sr d3"><i class="ph ph-fish"></i><h3>February — April</h3><p>Peak manta ray season at Sangalaki, with aggregations of dozens of gentle giants.</p></div>
+      </div>
+      <div class="route-wrap">
+        <div class="route-head sr"><span class="mono" style="color:var(--gold-orig);display:block;margin-bottom:.9rem;">Getting There</span><h2 style="color:#fff;">How to Reach Derawan</h2></div>
+        <div class="route-step sr d1"><div class="step-num">1</div><div><h3>Fly into Berau</h3><p>Flights from Jakarta, Surabaya, or Balikpapan arrive at Kalimarau Airport. Journey: 2–3 hours depending on origin.</p></div></div>
+        <div class="route-step sr d2"><div class="step-num">2</div><div><h3>Road Transfer to Tanjung Batu</h3><p>A scenic 2.5-hour overland drive takes you from the airport to Tanjung Batu harbour along the East Borneo coast.</p></div></div>
+        <div class="route-step sr d3"><div class="step-num">3</div><div><h3>Speedboat to the Islands</h3><p>A 45–60 minute speedboat crossing over vivid blue water delivers you directly to Pulau Derawan.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ ACCOMMODATION ═══════════════════════════════ -->
+  <section id="stay" class="accom-section top-from-deep">
+    <div class="container">
+      <div class="section-header sr"><span class="mono gold section-eyebrow">Where to Stay</span><h2>Accommodation</h2><p style="color:var(--muted);max-width:560px;margin:.8rem auto 0;">From budget homestays to luxury overwater resorts, find the stay that matches your style</p></div>
+      <div class="accom-grid">
+        <div class="accom-card sr d1"><i class="ph ph-house"></i><h3>Homestay</h3><p>An authentic experience staying with local families — warm hospitality at accessible prices.</p><div class="accom-price">From IDR 200,000 / night</div></div>
+        <div class="accom-card sr d2"><i class="ph ph-buildings"></i><h3>Cottage Resort</h3><p>Comfortable cottages with full facilities, steps from the beach or perched above the water.</p><div class="accom-price">From IDR 800,000 / night</div></div>
+        <div class="accom-card sr d3"><i class="ph ph-crown"></i><h3>Luxury Resort</h3><p>Premium overwater villas with exclusive service, private decks, and panoramic sea views.</p><div class="accom-price">From IDR 3,000,000 / night</div></div>
+      </div>
+      <div style="text-align:center;margin-top:4rem;" class="sr"><a href="#" class="btn btn-gold">View All Accommodation <i class="ph ph-arrow-right"></i></a></div>
+    </div>
+  </section>
+
+  <!-- ══ LIGHTBOX ════════════════════════════════════ -->
+  <div id="lightbox" class="lightbox">
+    <div class="lb-close" id="lbClose">&times;</div>
+    <button class="lb-prev" id="lbPrev" aria-label="Previous image"><i class="ph ph-caret-left"></i></button>
+    <button class="lb-next" id="lbNext" aria-label="Next image"><i class="ph ph-caret-right"></i></button>
+    <div class="lb-wrap">
+      <img id="lb-img" class="lb-img" src="" alt="">
+      <div id="lb-caption" class="lb-caption"></div>
+      <div id="lb-meta" class="lb-meta"></div>
+    </div>
+    <div class="lb-counter" id="lbCounter"></div>
+  </div>
+
+  <!-- ══ FOOTER ═════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div><span class="f-brand">DERAWAN.</span><p>A visual encyclopedia and complete travel guide to the wonders of the Derawan Archipelago, East Kalimantan, Indonesia.</p></div>
+        <div><h5>Navigate</h5><ul><li><a href="#intro">Story</a></li><li><a href="#islands">Islands</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#conservation">Conservation</a></li></ul></div>
+        <div><h5>Resources</h5><ul><li><a href="#">Travel Guide</a></li><li><a href="#">Best Season</a></li><li><a href="#">Dive Sites</a></li><li><a href="#">FAQ</a></li></ul></div>
+        <div><h5>Connect</h5><div class="f-social"><a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a><a href="#" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a><a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a><a href="#" aria-label="Email"><i class="ph ph-envelope"></i></a></div></div>
+      </div>
+      <div class="f-bottom"><span>&copy; 2025 DERAWAN ARCHIPELAGO ENCYCLOPEDIA</span><span>ALL RIGHTS RESERVED</span></div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "verbose": false,
+  "ignore": [
+    "public/sync-status.json",
+    "public/api/*",
+    "public/assets/*",
+    "public/admin/*",
+    ".git"
+  ],
+  "watch": [
+    "server.js",
+    "src/**/*",
+    "routes/**/*",
+    "config/**/*"
+  ],
+  "ext": "js,json"
+}
