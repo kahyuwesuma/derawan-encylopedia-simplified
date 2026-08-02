@@ -1,6 +1,8 @@
 node_modules
 .env
 .env.local
+gdrive-credentials.json
 gdrive-credential.json
+gen-lang-client-*.json
 public/sync-status.json
 discuss/*

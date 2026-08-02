@@ -142,21 +142,32 @@ section {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: .6rem;
+  gap: .65rem;
   padding: .85rem 2.2rem;
-  border: 1px solid currentColor;
+  border: 1px solid var(--deep);
   background: transparent;
   font-family: 'Space Mono', monospace;
   font-size: .68rem;
+  font-weight: 400;
   letter-spacing: .14em;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  color: inherit;
+  color: var(--deep);
   position: relative;
   overflow: hidden;
   z-index: 1;
-  transition: color .45s var(--ease3);
+  transition: color .35s var(--ease3), border-color .35s var(--ease3);
+}
+
+.btn i {
+  color: inherit;
+  font-size: .85rem;
+  transition: transform .3s var(--ease3);
+}
+
+.btn:hover i {
+  transform: translateX(4px);
 }
 
 .btn::after {
@@ -165,9 +176,9 @@ section {
   inset: 0;
   transform: scaleX(0);
   transform-origin: left;
-  background: currentColor;
+  background: var(--deep);
   z-index: -1;
-  transition: transform .45s var(--ease3);
+  transition: transform .35s var(--ease3);
 }
 
 .btn:hover::after {
@@ -175,22 +186,67 @@ section {
 }
 
 .btn:hover {
-  color: var(--sand);
+  color: var(--sand-w);
+  border-color: var(--deep);
 }
 
+/* White Button Variant (for dark backgrounds) */
 .btn-white {
-  color: #fff;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-white::after {
+  background: #ffffff;
 }
 
 .btn-white:hover {
   color: var(--deep);
+  border-color: #ffffff;
 }
 
+/* Gold Button Variant (for gold accent buttons) */
 .btn-gold {
   color: var(--gold-orig);
   border-color: var(--gold-orig);
 }
 
+.btn-gold::after {
+  background: var(--gold-orig);
+}
+
 .btn-gold:hover {
-  color: var(--sand);
+  color: #ffffff;
+  border-color: var(--gold-orig);
+}
+
+
+
+/* ── Scroll Reveal Utilities ── */
+.sr {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 1s var(--ease3), transform 1s var(--ease3);
+}
+.sr.fx-left { transform: translateX(-36px); }
+.sr.fx-right { transform: translateX(36px); }
+.sr.fx-scale { transform: scale(.93); }
+.sr.d1 { transition-delay: .1s; }
+.sr.d2 { transition-delay: .22s; }
+.sr.d3 { transition-delay: .34s; }
+.sr.on { opacity: 1; transform: none; }
+
+@keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

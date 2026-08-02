@@ -70,39 +70,50 @@ document.addEventListener('DOMContentLoaded', () => {
     if (wipe) wipe.classList.add('out');
   }, 80);
 
-  // Scroll reveal observe
-  observeSR();
+  const initAnimations = () => {
+    // Scroll reveal observe
+    observeSR();
 
-  // Count up observer
-  const cntObs = new IntersectionObserver(es => {
-    es.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.querySelectorAll('.stat-num-s[data-count],.stat-num-s[data-sym]').forEach(countUp);
-        cntObs.unobserve(e.target);
-      }
+    // Count up observer
+    const cntObs = new IntersectionObserver(es => {
+      es.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.stat-num-s[data-count],.stat-num-s[data-sym]').forEach(countUp);
+          cntObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: .3 });
+    const ss = document.querySelector('.stats-section');
+    if (ss) cntObs.observe(ss);
+
+    // Parallax Setup
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    parallaxElements.length = 0;
+    document.querySelectorAll('[data-parallax]').forEach(el => parallaxElements.push({ el, speed: .15 }));
+    document.querySelectorAll('.depth-panel').forEach(p => parallaxElements.push({ el: p, speed: parseFloat(p.dataset.speed || '.03'), isDepth: true }));
+
+    if (!isMobile) {
+      window.removeEventListener('scroll', handleParallax);
+      window.addEventListener('scroll', rafThrottle(handleParallax), { passive: true });
+      handleParallax();
+    }
+
+    // Smooth Scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      if (a.dataset.smoothBound) return;
+      a.dataset.smoothBound = "true";
+      a.addEventListener('click', e => {
+        const href = a.getAttribute('href');
+        if (!href || href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
     });
-  }, { threshold: .3 });
-  const ss = document.querySelector('.stats-section');
-  if (ss) cntObs.observe(ss);
+  };
 
-  // Parallax Setup
-  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  document.querySelectorAll('[data-parallax]').forEach(el => parallaxElements.push({ el, speed: .15 }));
-  document.querySelectorAll('.depth-panel').forEach(p => parallaxElements.push({ el: p, speed: parseFloat(p.dataset.speed || '.03'), isDepth: true }));
-
-  if (!isMobile) {
-    window.addEventListener('scroll', rafThrottle(handleParallax), { passive: true });
-    handleParallax();
-  }
-
-  // Smooth Scroll
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', e => {
-      const target = document.querySelector(a.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
+  initAnimations();
+  document.addEventListener('includes:loaded', initAnimations);
 });
