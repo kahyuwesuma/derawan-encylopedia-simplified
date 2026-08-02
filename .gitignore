@@ -6,3 +6,4 @@ gdrive-credential.json
 gen-lang-client-*.json
 public/sync-status.json
 discuss/*
+public/assets/api/**/*
