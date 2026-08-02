@@ -1,0 +1,24 @@
+<section id="explore" class="explore-section">
+  <div class="container">
+    <div class="section-header sr">
+      <span class="mono gold section-eyebrow">Interactive Discovery</span>
+      <h2>Dive Atlas Explorer</h2>
+      <p style="color:var(--muted);max-width:560px;margin:.8rem auto 0;">Click on the main island pins to zoom in, view detailed dive sites, and open immersive slide show takeovers.</p>
+    </div>
+
+    <div class="explore-display sr d2" style="position: relative; overflow: hidden; height: 600px;">
+      <button id="btn-back" class="btn-back" onclick="goBack()">
+        <svg class="btn-back-arrow" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Peta Utama
+      </button>
+
+      <div id="map"></div>
+
+      <!-- ─── LEGEND ─── -->
+      <div id="legend">
+        <div class="lg-row"><div class="lg-dot" style="background:var(--teal)"></div><span>Pulau Utama</span></div>
+        <div class="lg-row"><div class="lg-dot" style="background:var(--coral)"></div><span>Dive Site</span></div>
+      </div>
+    </div>
+  </div>
+</section>

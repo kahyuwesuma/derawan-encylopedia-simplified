@@ -57,32 +57,52 @@ document.addEventListener('DOMContentLoaded', () => {
   const lbNext = document.getElementById('lbNext');
   const lbEl = document.getElementById('lightbox');
 
-  if (lbClose) lbClose.addEventListener('click', closeLB);
-  if (lbPrev) lbPrev.addEventListener('click', e => {
-    e.stopPropagation();
-    const items = window.galleryItems || [];
-    lbIdx = (lbIdx - 1 + items.length) % items.length;
-    showLB();
-  });
-  if (lbNext) lbNext.addEventListener('click', e => {
-    e.stopPropagation();
-    const items = window.galleryItems || [];
-    lbIdx = (lbIdx + 1) % items.length;
-    showLB();
-  });
-  if (lbEl) {
-    lbEl.addEventListener('click', e => { if (e.target === lbEl) closeLB(); });
-    let lbTS = 0;
-    lbEl.addEventListener('touchstart', e => { lbTS = e.touches[0].clientX; }, { passive: true });
-    lbEl.addEventListener('touchend', e => {
-      const items = window.galleryItems || [];
-      const d = lbTS - e.changedTouches[0].clientX;
-      if (Math.abs(d) > 50) {
-        d > 0 ? (lbIdx = (lbIdx + 1) % items.length) : (lbIdx = (lbIdx - 1 + items.length) % items.length);
+  const bindLB = () => {
+    const lbClose = document.getElementById('lbClose');
+    const lbPrev = document.getElementById('lbPrev');
+    const lbNext = document.getElementById('lbNext');
+    const lbEl = document.getElementById('lightbox');
+
+    if (lbClose && !lbClose.dataset.bound) {
+      lbClose.dataset.bound = "true";
+      lbClose.addEventListener('click', closeLB);
+    }
+    if (lbPrev && !lbPrev.dataset.bound) {
+      lbPrev.dataset.bound = "true";
+      lbPrev.addEventListener('click', e => {
+        e.stopPropagation();
+        const items = window.galleryItems || [];
+        lbIdx = (lbIdx - 1 + items.length) % items.length;
         showLB();
-      }
-    });
-  }
+      });
+    }
+    if (lbNext && !lbNext.dataset.bound) {
+      lbNext.dataset.bound = "true";
+      lbNext.addEventListener('click', e => {
+        e.stopPropagation();
+        const items = window.galleryItems || [];
+        lbIdx = (lbIdx + 1) % items.length;
+        showLB();
+      });
+    }
+    if (lbEl && !lbEl.dataset.bound) {
+      lbEl.dataset.bound = "true";
+      lbEl.addEventListener('click', e => { if (e.target === lbEl) closeLB(); });
+      let lbTS = 0;
+      lbEl.addEventListener('touchstart', e => { lbTS = e.touches[0].clientX; }, { passive: true });
+      lbEl.addEventListener('touchend', e => {
+        const items = window.galleryItems || [];
+        const d = lbTS - e.changedTouches[0].clientX;
+        if (Math.abs(d) > 50) {
+          d > 0 ? (lbIdx = (lbIdx + 1) % items.length) : (lbIdx = (lbIdx - 1 + items.length) % items.length);
+          showLB();
+        }
+      });
+    }
+  };
+
+  bindLB();
+  document.addEventListener('includes:loaded', bindLB);
 
   document.addEventListener('keydown', e => {
     const lbObj = document.getElementById('lightbox');

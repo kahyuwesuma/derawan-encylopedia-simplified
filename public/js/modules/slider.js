@@ -43,17 +43,23 @@ window.nextSlide = nextSlide;
 window.prevSlide = prevSlide;
 
 document.addEventListener('DOMContentLoaded', () => {
-  const iw = document.getElementById('islandsWrap');
-  if (iw) {
-    let ts = 0, te = 0;
-    iw.addEventListener('touchstart', e => { ts = e.touches[0].clientX; }, { passive: true });
-    iw.addEventListener('touchmove', e => { te = e.touches[0].clientX; }, { passive: true });
-    iw.addEventListener('touchend', () => {
-      const d = ts - te;
-      if (Math.abs(d) > 50) { d > 0 ? nextSlide() : prevSlide(); }
-      ts = 0; te = 0;
-    });
-  }
+  const initSliderEvents = () => {
+    const iw = document.getElementById('islandsWrap');
+    if (iw && !iw.dataset.touchBound) {
+      iw.dataset.touchBound = "true";
+      let ts = 0, te = 0;
+      iw.addEventListener('touchstart', e => { ts = e.touches[0].clientX; }, { passive: true });
+      iw.addEventListener('touchmove', e => { te = e.touches[0].clientX; }, { passive: true });
+      iw.addEventListener('touchend', () => {
+        const d = ts - te;
+        if (Math.abs(d) > 50) { d > 0 ? nextSlide() : prevSlide(); }
+        ts = 0; te = 0;
+      });
+    }
+  };
+
+  initSliderEvents();
+  document.addEventListener('includes:loaded', initSliderEvents);
 
   document.addEventListener('keydown', e => {
     const lbObj = document.getElementById('lightbox');

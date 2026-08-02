@@ -74,6 +74,7 @@
 .stat-item:hover .stat-num-s { transform: scale(1.08); }
 .stat-num-s[data-count] { opacity: 0; transform: translateY(18px); transition: opacity .7s, transform .7s var(--ease3); }
 .stat-num-s[data-count].counted { opacity: 1; transform: none; }
+.stat-lbl { font-family: 'Space Mono', monospace; font-size: .6rem; letter-spacing: .15em; opacity: .7; }
 
 /* ── CONSERVATION ── */
 .conservation-section { padding: clamp(6rem, 15vw, 11rem) 0; background: var(--white); }

@@ -1,0 +1,82 @@
+<div id="island-panel">
+  <div id="island-hero">
+    <img id="ih-img" src="" alt="">
+    <div id="island-hero-grad"></div>
+    <div id="island-hero-label">
+      <div class="ey" id="ih-ey">Pulau</div>
+      <div class="ttl" id="ih-ttl">—</div>
+    </div>
+  </div>
+  <div id="island-body">
+    <p class="island-desc" id="ib-desc">—</p>
+    <div class="island-stats" id="ib-stats"></div>
+    <div class="sites-header">
+      <span class="sites-lbl">Semua Dive Sites</span>
+      <span class="sites-count" id="ib-count">—</span>
+    </div>
+    <div id="ib-list"></div>
+  </div>
+  
+  <!-- Half-circle toggle button -->
+  <button id="panel-toggle" class="panel-toggle" onclick="toggleSidebar()" aria-label="Toggle Sidebar">
+    <svg id="toggle-icon" class="toggle-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+</div>
+
+<!-- ─── CINEMATIC OVERLAY ─── -->
+<div id="cinematic">
+  <div id="cin-track"></div>
+  <div id="cin-top-label">—</div>
+  <button id="cin-top-close" onclick="closeCinematic()">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div id="cin-info">
+    <div id="cin-eyebrow">
+      <span class="cin-island-label" id="cin-island-lbl">—</span>
+      <div class="cin-eye-sep"></div>
+      <span class="cin-site-num" id="cin-site-num">—</span>
+    </div>
+    <div id="cin-diff"><div id="cin-diff-dot"></div><span id="cin-diff-txt">—</span></div>
+    <div id="cin-title">—</div>
+    <div id="cin-desc-wrap">
+      <span class="cin-rule-num" id="cin-rule-n">01</span>
+      <p id="cin-desc">—</p>
+    </div>
+    <div id="cin-stats"></div>
+    <div id="cin-highlight" style="display:none">
+      <span id="cin-hi-icon">✦</span>
+      <span id="cin-hi-label">—</span>
+    </div>
+    <div id="cin-actions">
+      <button id="cin-gallery-btn" onclick="openGalleryLightbox()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        Lihat Galeri
+      </button>
+    </div>
+  </div>
+  <div id="cin-right">
+    <button class="cin-arrow" onclick="cinNav(-1)">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+    <div id="cin-filmstrip"></div>
+    <div id="cin-counter"><em id="cin-cur">1</em>foto</div>
+    <div id="cin-dots"></div>
+    <button class="cin-arrow" onclick="cinNav(1)">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+  <div id="cin-caption">—</div>
+</div>
+
+<!-- ══ LIGHTBOX ════════════════════════════════════ -->
+<div id="lightbox" class="lightbox">
+  <div class="lb-close" id="lbClose">&times;</div>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous image"><i class="ph ph-caret-left"></i></button>
+  <button class="lb-next" id="lbNext" aria-label="Next image"><i class="ph ph-caret-right"></i></button>
+  <div class="lb-wrap">
+    <img id="lb-img" class="lb-img" src="" alt="">
+    <div id="lb-caption" class="lb-caption"></div>
+    <div id="lb-meta" class="lb-meta"></div>
+  </div>
+  <div class="lb-counter" id="lbCounter"></div>
+</div>
