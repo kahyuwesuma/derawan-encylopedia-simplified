@@ -29,8 +29,19 @@
 
   const hoverTargets = 'a, button, .card, .gallery-item, .accom-card, .season-card, .con-img-wrap, .island-slide, .dot, .partner-logo, .depth-panel, .route-step, .filter-btn, .stat-card, .h-btn-primary';
 
-  document.querySelectorAll(hoverTargets).forEach(el => {
-    el.addEventListener('mouseenter', () => document.body.classList.add('cur-big'));
-    el.addEventListener('mouseleave', () => document.body.classList.remove('cur-big'));
-  });
+  function bindHover() {
+    document.querySelectorAll(hoverTargets).forEach(el => {
+      el.removeEventListener('mouseenter', addCurBig);
+      el.removeEventListener('mouseleave', removeCurBig);
+      el.addEventListener('mouseenter', addCurBig);
+      el.addEventListener('mouseleave', removeCurBig);
+    });
+  }
+
+  function addCurBig() { document.body.classList.add('cur-big'); }
+  function removeCurBig() { document.body.classList.remove('cur-big'); }
+
+  bindHover();
+  document.addEventListener('includes:loaded', bindHover);
 })();
+

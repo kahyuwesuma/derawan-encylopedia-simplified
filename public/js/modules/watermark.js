@@ -237,17 +237,17 @@ var _obs = new MutationObserver(function(mutations) {
   mutations.forEach(function(m) {
     m.addedNodes.forEach(function(node) {
       if (node.nodeType !== 1) return;
-      /* popup/thumbnail images: mark no-wm so they stay clean */
+      /* popup/thumbnail/logo images: mark no-wm so they stay clean */
       if (node.classList &&
-          (node.classList.contains('popup-card') || node.classList.contains('site-row-thumb'))) {
+          (node.classList.contains('popup-card') || node.classList.contains('site-row-thumb') || node.classList.contains('partner-logo'))) {
         if (node.querySelectorAll)
           node.querySelectorAll('img').forEach(function(i){ i.classList.add('no-wm'); });
         return;
       }
-      if (node.tagName === 'IMG' && !node.classList.contains('no-wm')) scheduleWM(node);
+      if (node.tagName === 'IMG' && !node.classList.contains('no-wm') && !node.classList.contains('partner-logo')) scheduleWM(node);
       if (node.querySelectorAll) {
-        node.querySelectorAll('img:not(.no-wm)').forEach(function(img) {
-          if (img.closest && img.closest('.popup-card,.site-row-thumb,.lb-th')) return;
+        node.querySelectorAll('img:not(.no-wm):not(.partner-logo)').forEach(function(img) {
+          if (img.closest && img.closest('.popup-card,.site-row-thumb,.lb-th,.supported-by,.partner-logo')) return;
           scheduleWM(img);
         });
       }
