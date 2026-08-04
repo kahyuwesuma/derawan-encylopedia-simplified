@@ -6,6 +6,10 @@
  */
 
 require('dotenv').config();
+console.log('=== ENV DEBUG ===');
+console.log('cwd:', process.cwd());
+console.log('GDRIVE_FOLDER_ID:', JSON.stringify(process.env.GDRIVE_FOLDER_ID));
+console.log('==================');
 
 const express = require('express');
 const path = require('path');
