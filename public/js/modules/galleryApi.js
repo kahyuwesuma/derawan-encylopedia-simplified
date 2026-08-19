@@ -223,18 +223,35 @@ function renderGallery(items) {
   });
 }
 
-function applyFilter() {
-  window.galleryItems = window.activeFilter === 'all'
+let currentLimit = 12;
+const ITEMS_PER_PAGE = 12;
+
+function applyFilter(resetLimit = true) {
+  if (resetLimit) {
+    currentLimit = ITEMS_PER_PAGE;
+  }
+  const filtered = window.activeFilter === 'all'
     ? window.allFetched
     : window.allFetched.filter(i => i.cat === window.activeFilter);
+    
+  window.galleryItems = filtered.slice(0, currentLimit);
   renderGallery(window.galleryItems);
+
+  const actionsEl = document.getElementById('galleryActions');
+  if (actionsEl) {
+    if (filtered.length > currentLimit) {
+      actionsEl.style.display = 'flex';
+    } else {
+      actionsEl.style.display = 'none';
+    }
+  }
 }
 
 async function initGallery() {
   setStatus('Loading…', false);
   window.allFetched = await fetchFromAPI();
   window.galleryItems = window.allFetched;
-  applyFilter();
+  applyFilter(true);
   if (window.usingAPI) {
     setStatus(`${window.allFetched.length} files from archive`, true);
   } else {
@@ -252,7 +269,16 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       window.activeFilter = btn.dataset.cat || 'all';
-      applyFilter();
+      applyFilter(true);
     });
   });
+});
+
+// Event delegation for the Load More button click
+document.addEventListener('click', e => {
+  const loadMoreBtn = e.target.closest('#btnLoadMore');
+  if (loadMoreBtn) {
+    currentLimit += ITEMS_PER_PAGE;
+    applyFilter(false);
+  }
 });

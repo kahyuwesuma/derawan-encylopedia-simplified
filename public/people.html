@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Behind Derawan Encyclopedia | Derawan Archipelago</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=DM+Sans:wght@300;400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components/management.css">
+
+  <!-- Modular Component Loader -->
+  <script src="/js/modules/includeLoader.js"></script>
+
+  <!-- External JS Feature Modules -->
+  <script src="/js/cursor.js" defer></script>
+  <script src="/js/modules/animations.js" defer></script>
+  <script src="/data/contributors.js"></script>
+  <script src="/js/people.js" defer></script>
+</head>
+<body class="page-people">
+  <div id="wipe"></div>
+  <div id="cur"></div>
+  <div id="cur-ring"></div>
+
+  <!-- ─── STANDALONE NAV ─── -->
+  <nav class="page-nav">
+    <a href="/" class="page-nav-brand">DERAWAN.</a>
+    <ul class="page-nav-links">
+      <li><a href="/#intro">Story</a></li>
+      <li><a href="/#islands">Islands</a></li>
+      <li><a href="/#gallery">Gallery</a></li>
+      <li><a href="/#conservation">Conservation</a></li>
+      <li><a href="/people.html" class="active">People</a></li>
+    </ul>
+    <a href="/" class="page-nav-back"><i class="ph ph-arrow-left"></i> Back to Home</a>
+  </nav>
+
+  <!-- ─── HERO SECTION ─── -->
+  <header class="page-hero">
+    <div class="page-hero-accent"></div>
+    <div class="page-hero-grid"></div>
+    <div class="container">
+      <div class="page-hero-inner">
+        <div class="page-hero-eyebrow">
+          <div class="page-hero-eyebrow-line"></div>
+          <span class="page-hero-eyebrow-text">Management & Contributors</span>
+        </div>
+        <h1 class="sr">The People Behind Derawan Encyclopedia</h1>
+        <div class="page-hero-rule sr d1"></div>
+        <p class="page-hero-desc sr d2">
+          A dedicated team of researchers, conservationists, photographers, and local community members working together to document and protect the Derawan Archipelago.
+        </p>
+        <div class="page-hero-scroll sr d3">
+          <div class="ph-scroll-track"><div class="ph-scroll-run"></div></div>
+          <span class="page-hero-eyebrow-text" style="color: rgba(255,255,255,.3);">Scroll to explore</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="people-content">
+    <!-- Dynamic content will be injected here by people.js -->
+  </main>
+
+  <!-- ─── SHARED COMPONENTS ─── -->
+  <div data-include="/includes/overlays.html"></div>
+  <div data-include="/includes/footer.html"></div>
+</body>
+</html>

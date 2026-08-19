@@ -13,6 +13,42 @@
   --sand-ghost: rgba(240, 230, 200, .18);
   --gold: #d4aa6a;
   --gold-dim: rgba(212, 170, 106, .5);
+  /* NEW: focus ring + skeleton tokens (kept within same palette) */
+  --focus-ring: 0 0 0 2px rgba(6, 14, 26, .95), 0 0 0 4px var(--teal-glow);
+  --skeleton-base: rgba(26, 181, 200, .06);
+  --skeleton-shine: rgba(26, 181, 200, .16);
+}
+
+/* ─── ACCESSIBILITY: reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  #map, #island-panel, #cinematic, #cin-track, .cin-slide.cur img,
+  .mk-ring, .mk-ring2, .mk-dive-ring, #island-hero img,
+  .popup-card, .btn-back-arrow, .toggle-icon, .site-row-arr {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+
+/* ─── ACCESSIBILITY: visible focus states for keyboard users ─── */
+#btn-back:focus-visible,
+.panel-toggle:focus-visible,
+.site-row:focus-visible,
+#cin-gallery-btn:focus-visible,
+#cin-close-btn:focus-visible,
+#cin-top-close:focus-visible,
+.cin-arrow:focus-visible,
+.cin-dot:focus-visible,
+.cin-film-thumb:focus-visible,
+.pp-action-btn:focus-visible,
+.pp-cta:focus-visible,
+.mk-island:focus-visible .mk-core,
+.mk-dive:focus-visible .mk-dive-dot {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+.site-row:focus-visible {
+  border-radius: 10px;
 }
 
 /* ─── MAP AND ATLAS INTERACTIVITY ─── */
@@ -23,9 +59,6 @@
   inset: 0;
   z-index: 1;
   transition: filter .7s var(--ease), transform .7s var(--ease);
-}
-body.cinematic-open {
-  overflow: hidden !important;
 }
 body.cinematic-open #map {
   filter: blur(4px) brightness(.28);
@@ -41,6 +74,43 @@ body.cinematic-open #map {
   border-radius: 12px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+}
+
+/* NEW: subtle map loading overlay (informative — tells user the map is initializing) */
+#map-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--ink);
+  color: var(--sand-ghost);
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: opacity .5s ease, visibility .5s ease;
+}
+#map-loading.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+#map-loading .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--teal);
+  animation: mapLoadPulse 1.2s ease-in-out infinite;
+}
+#map-loading .dot:nth-child(2) { animation-delay: .15s; }
+#map-loading .dot:nth-child(3) { animation-delay: .3s; }
+@keyframes mapLoadPulse {
+  0%, 100% { opacity: .25; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.4); }
 }
 
 /* ─── BACK BUTTON ─── */
@@ -67,6 +137,8 @@ body.cinematic-open #map {
   pointer-events: none;
   transition: all .45s var(--ease);
   backdrop-filter: blur(16px);
+  /* NEW: ensure comfortable tap target on touch devices */
+  min-height: 40px;
 }
 #btn-back.on {
   opacity: 1;
@@ -82,6 +154,9 @@ body.cinematic-open #btn-back {
   background: rgba(26, 181, 200, .12);
   border-color: var(--teal);
   color: var(--teal-glow);
+}
+#btn-back:active {
+  transform: scale(.96);
 }
 #btn-back:hover .btn-back-arrow {
   transform: translateX(-3px);
@@ -144,6 +219,9 @@ body.cinematic-open #island-panel {
   background: rgba(13, 30, 52, .98);
   color: var(--teal-glow);
 }
+.panel-toggle:active {
+  transform: scale(.94);
+}
 .toggle-icon {
   transition: transform .3s var(--ease);
 }
@@ -158,6 +236,18 @@ body.cinematic-open #island-panel {
   flex-shrink: 0;
   overflow: hidden;
   background: #050d18;
+  /* NEW: skeleton shimmer while hero image loads */
+  background-image: linear-gradient(100deg, var(--skeleton-base) 30%, var(--skeleton-shine) 50%, var(--skeleton-base) 70%);
+  background-size: 200% 100%;
+  animation: skeletonShine 1.6s ease-in-out infinite;
+}
+#island-hero.loaded {
+  animation: none;
+  background-image: none;
+}
+@keyframes skeletonShine {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 #island-hero img {
   width: 100%;
@@ -165,10 +255,12 @@ body.cinematic-open #island-panel {
   object-fit: cover;
   display: block;
   transform: scale(1.07);
-  transition: transform 8s ease;
+  transition: transform 8s ease, opacity .4s ease;
+  opacity: 0;
 }
 #island-hero.loaded img {
   transform: scale(1);
+  opacity: 1;
 }
 #island-hero-grad {
   position: absolute;
@@ -215,6 +307,9 @@ body.cinematic-open #island-panel {
   padding: 18px 20px 32px;
   scrollbar-width: thin;
   scrollbar-color: rgba(26, 181, 200, .12) transparent;
+  /* NEW: fade hint at bottom so users know content continues below the fold */
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 24px), transparent 100%);
+  mask-image: linear-gradient(180deg, #000 calc(100% - 24px), transparent 100%);
 }
 #island-body::-webkit-scrollbar {
   width: 3px;
@@ -222,6 +317,9 @@ body.cinematic-open #island-panel {
 #island-body::-webkit-scrollbar-thumb {
   background: rgba(26, 181, 200, .18);
   border-radius: 3px;
+}
+#island-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 181, 200, .32);
 }
 
 .island-desc {
@@ -247,6 +345,7 @@ body.cinematic-open #island-panel {
   flex-direction: column;
   align-items: center;
   transition: background .25s, border-color .25s;
+  cursor: default;
 }
 .ist:hover {
   background: rgba(26, 181, 200, .1);
@@ -291,6 +390,48 @@ body.cinematic-open #island-panel {
   border: 1px solid rgba(26, 181, 200, .16);
   color: var(--teal);
 }
+
+/* NEW: empty state when an island has no dive sites — keeps the panel informative
+   instead of showing a blank gap. Pair with a matching empty markup block. */
+.sites-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 26px 14px;
+  text-align: center;
+  border: 1px dashed rgba(26, 181, 200, .18);
+  border-radius: 12px;
+  background: rgba(26, 181, 200, .02);
+}
+.sites-empty-icon {
+  font-size: 20px;
+  opacity: .5;
+}
+.sites-empty-txt {
+  font-size: 11px;
+  color: var(--sand-ghost);
+  line-height: 1.6;
+  max-width: 220px;
+}
+
+/* NEW: skeleton row for sites while loading (informative loading state) */
+.site-row.is-skeleton {
+  pointer-events: none;
+  cursor: default;
+}
+.site-row.is-skeleton .site-row-thumb,
+.site-row.is-skeleton .site-row-name,
+.site-row.is-skeleton .site-row-meta {
+  background-image: linear-gradient(100deg, var(--skeleton-base) 30%, var(--skeleton-shine) 50%, var(--skeleton-base) 70%);
+  background-size: 200% 100%;
+  animation: skeletonShine 1.6s ease-in-out infinite;
+  color: transparent;
+  border-radius: 5px;
+}
+.site-row.is-skeleton .site-row-name { height: 11px; width: 70%; }
+.site-row.is-skeleton .site-row-meta { height: 8px; width: 40%; margin-top: 6px; }
+
 .site-row {
   display: flex;
   align-items: center;
@@ -301,12 +442,15 @@ body.cinematic-open #island-panel {
   border: 1px solid rgba(26, 181, 200, .07);
   cursor: pointer;
   margin-bottom: 5px;
-  transition: background .22s, border-color .22s, box-shadow .22s;
+  transition: background .22s, border-color .22s, box-shadow .22s, transform .15s var(--ease);
 }
 .site-row:hover {
   background: rgba(26, 181, 200, .08);
   border-color: rgba(26, 181, 200, .25);
   box-shadow: 4px 0 20px rgba(26, 181, 200, .06);
+}
+.site-row:active {
+  transform: scale(.985);
 }
 .site-row-thumb {
   width: 44px;
@@ -586,6 +730,9 @@ body.cinematic-open #island-panel {
   color: var(--teal-glow);
   border-color: var(--teal);
 }
+#cin-gallery-btn:active {
+  transform: scale(.97);
+}
 #cin-close-btn {
   width: 40px;
   height: 40px;
@@ -603,6 +750,9 @@ body.cinematic-open #island-panel {
   background: rgba(224, 92, 75, .18);
   border-color: rgba(224, 92, 75, .35);
   color: var(--coral);
+}
+#cin-close-btn:active {
+  transform: scale(.92);
 }
 
 /* Filmstrip right panel */
@@ -627,6 +777,9 @@ body.cinematic-open #island-panel {
   overflow-y: auto;
   scrollbar-width: none;
   padding: 4px 0;
+  /* NEW: fade edges so users understand there's more to scroll */
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%);
 }
 #cin-filmstrip::-webkit-scrollbar {
   display: none;
@@ -707,6 +860,15 @@ body.cinematic-open #island-panel {
   border-color: var(--teal);
   transform: scale(1.08);
 }
+.cin-arrow:active {
+  transform: scale(.94);
+}
+/* NEW: disabled state for prev/next arrows at start/end of sequence */
+.cin-arrow[disabled], .cin-arrow.is-disabled {
+  opacity: .28;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 #cin-dots {
   display: flex;
   gap: 5px;
@@ -719,6 +881,9 @@ body.cinematic-open #island-panel {
   background: rgba(255, 255, 255, .18);
   cursor: pointer;
   transition: all .3s var(--ease);
+}
+.cin-dot:hover {
+  background: rgba(255, 255, 255, .4);
 }
 .cin-dot.cur {
   background: #fff;
@@ -748,6 +913,9 @@ body.cinematic-open #island-panel {
   background: rgba(224, 92, 75, .18);
   border-color: rgba(224, 92, 75, .35);
   color: var(--coral);
+}
+#cin-top-close:active {
+  transform: scale(.92);
 }
 #cin-top-label {
   position: absolute;
@@ -806,6 +974,18 @@ body.cinematic-open #legend {
   font-size: 9px;
   color: var(--sand-dim);
   letter-spacing: .06em;
+  /* NEW: legend rows are informative reference points — signal interactivity if clickable filters */
+  cursor: default;
+  transition: color .2s;
+}
+.lg-row.is-toggle {
+  cursor: pointer;
+}
+.lg-row.is-toggle:hover {
+  color: var(--sand);
+}
+.lg-row.is-off {
+  opacity: .4;
 }
 .lg-row:last-child {
   margin-bottom: 0;
@@ -958,6 +1138,15 @@ body.cinematic-open #legend {
   box-shadow: 0 0 10px rgba(77, 217, 232, 0.4);
   color: #08111e;
 }
+.pp-action-btn:active {
+  transform: scale(.97);
+}
+/* NEW: loading state for the action button (e.g. while fetching detail data) */
+.pp-action-btn.is-loading {
+  opacity: .7;
+  cursor: progress;
+  pointer-events: none;
+}
 .island-ph {
   position: relative;
   overflow: hidden;
@@ -998,6 +1187,9 @@ body.cinematic-open #legend {
   background: rgba(26, 181, 200, .24);
   color: var(--teal-glow);
 }
+.pp-cta:active {
+  transform: scale(.98);
+}
 
 /* ─── MAP MARKERS ─── */
 .mk-island {
@@ -1029,6 +1221,11 @@ body.cinematic-open #legend {
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 20px rgba(26, 181, 200, .35);
+  transition: box-shadow .25s, transform .2s var(--ease);
+}
+.mk-island:hover .mk-core {
+  box-shadow: 0 0 28px rgba(26, 181, 200, .55);
+  transform: scale(1.08);
 }
 .mk-core svg {
   width: 14px;
@@ -1038,6 +1235,14 @@ body.cinematic-open #legend {
 @keyframes rp {
   0%, 100% { transform: scale(1); opacity: 1; }
   50% { transform: scale(1.18); opacity: .45; }
+}
+/* NEW: visited/selected state so users can tell which islands they've already explored */
+.mk-island.is-visited .mk-core {
+  background: radial-gradient(circle, var(--gold) 0%, #8a6a34 100%);
+}
+.mk-island.is-active .mk-ring {
+  border-color: var(--teal-glow);
+  border-width: 2.5px;
 }
 .mk-dive {
   width: 30px;
@@ -1052,6 +1257,11 @@ body.cinematic-open #legend {
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, .28);
   box-shadow: 0 0 14px rgba(224, 92, 75, .5);
+  transition: box-shadow .25s, transform .2s var(--ease);
+}
+.mk-dive:hover .mk-dive-dot {
+  box-shadow: 0 0 20px rgba(224, 92, 75, .7);
+  transform: scale(1.1);
 }
 .mk-dive-ring {
   position: absolute;
@@ -1075,6 +1285,19 @@ body.cinematic-open #legend {
     border-top: 1px solid rgba(26, 181, 200, .12);
     border-radius: 18px 18px 0 0;
   }
+  /* NEW: drag handle affordance for the bottom sheet on mobile */
+  #island-panel::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(26, 181, 200, .25);
+    z-index: 5;
+  }
   #cin-info {
     width: 100%;
     padding: 0 22px 96px;
@@ -1092,5 +1315,17 @@ body.cinematic-open #legend {
     top: 14px;
     right: 18px;
     left: auto;
+  }
+  /* NEW: enlarge tap targets on touch screens */
+  #cin-close-btn, #cin-top-close, .cin-arrow {
+    width: 46px;
+    height: 46px;
+  }
+  .panel-toggle {
+    width: 26px;
+    height: 60px;
+  }
+  .site-row {
+    padding: 11px 12px;
   }
 }
