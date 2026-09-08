@@ -1,1 +1,2290 @@
-[]
+[
+  {
+    "region": "DIVE SITES SANGALAKI",
+    "regionRaw": "04_DIVE SITES SANGALAKI",
+    "site": "Manta Point",
+    "siteRaw": "05_Manta Point",
+    "files": [
+      {
+        "filename": "Biodiversity_Manta Point_Sangalaki_15-04-26_Willi.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Biodiversity_Manta Point_Sangalaki_15-04-26_Willi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "15-04-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Manta Ray_Manta Point_Sangalaki_12-02-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Manta Ray_Manta Point_Sangalaki_12-02-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Manta Ray",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "12-02-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Bintang laut bantal-choriastergranulatus_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Bintang laut bantal-choriastergranulatus_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Bintang Laut Bantal/choriastergranulatus",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "sotong- cuttlefish_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/sotong- cuttlefish_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sotong/ Cuttlefish",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Giant Barrel Sponge_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Giant Barrel Sponge_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Giant Barrel Sponge",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Biodiversity_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Pena Laut- Sea Pen_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Pena Laut- Sea Pen_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Pena Laut/ Sea Pen",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Karang cambuk- Sea Whip_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/05_Manta Point/Karang cambuk- Sea Whip_Manta Point_Sangalaki_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Karang Cambuk/ Sea Whip",
+          "location": "Manta Point Sangalaki · Dive Sites Sangalaki",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES SANGALAKI",
+    "regionRaw": "04_DIVE SITES SANGALAKI",
+    "site": "Cleaning Station",
+    "siteRaw": "02_Cleaning Station",
+    "files": [
+      {
+        "filename": "Underwater_Cleaning Station_Sangalaki_14-03-25_Armindo.JPG",
+        "url": "/assets/api/04_DIVE SITES SANGALAKI/02_Cleaning Station/Underwater_Cleaning Station_Sangalaki_14-03-25_Armindo.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Underwater",
+          "location": "Cleaning Station Sangalaki · Dive Sites Sangalaki",
+          "date": "14-03-2025",
+          "photographer": "Armindo"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES DERAWAN",
+    "regionRaw": "03_DIVE SITES DERAWAN",
+    "site": "Pulau Panjang",
+    "siteRaw": "12_Pulau Panjang",
+    "files": [
+      {
+        "filename": "Ghost Pipefish_Pulau panjang_derawan_13-03-26_willi.JPG",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/12_Pulau Panjang/Ghost Pipefish_Pulau panjang_derawan_13-03-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Ghost Pipefish",
+          "location": "Pulau Panjang Derawan · Dive Sites Derawan",
+          "date": "13-03-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES DERAWAN",
+    "regionRaw": "03_DIVE SITES DERAWAN",
+    "site": "Darma Point",
+    "siteRaw": "11_Darma Point",
+    "files": [
+      {
+        "filename": "Leaf Scorpionfish_Darma point_Derawan_04-03-26_yovi.JPG",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/11_Darma Point/Leaf Scorpionfish_Darma point_Derawan_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Leaf Scorpionfish",
+          "location": "Darma Point Derawan · Dive Sites Derawan",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Orangutan Crab_Darma point_Derawan_04-03-26_yovi.JPG",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/11_Darma Point/Orangutan Crab_Darma point_Derawan_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Orangutan Crab",
+          "location": "Darma Point Derawan · Dive Sites Derawan",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Ceratosoma-nudibranch_Darma point_Derawan_04-03-26_yovi.JPG",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/11_Darma Point/Ceratosoma-nudibranch_Darma point_Derawan_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Ceratosoma/nudibranch",
+          "location": "Darma Point Derawan · Dive Sites Derawan",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Cheesecake nudibranch_Darma point_Derawan_04-03-26_yovi.JPG",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/11_Darma Point/Cheesecake nudibranch_Darma point_Derawan_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Cheesecake Nudibranch",
+          "location": "Darma Point Derawan · Dive Sites Derawan",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Thecacera sp-nudibranch_Darma point_Derawan_04-03-26_yovi.jpeg",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/11_Darma Point/Thecacera sp-nudibranch_Darma point_Derawan_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Thecacera Sp/nudibranch",
+          "location": "Darma Point Derawan · Dive Sites Derawan",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES DERAWAN",
+    "regionRaw": "03_DIVE SITES DERAWAN",
+    "site": "Macro Mania",
+    "siteRaw": "08_Macro Mania",
+    "files": [
+      {
+        "filename": "Nudibranch_macro mania_derawan_13-03-26_willi.JPG",
+        "url": "/assets/api/03_DIVE SITES DERAWAN/08_Macro Mania/Nudibranch_macro mania_derawan_13-03-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nudibranch",
+          "location": "Macro Mania Derawan · Dive Sites Derawan",
+          "date": "13-03-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KARANG MUARAS",
+    "regionRaw": "05_DIVE SITES KARANG MUARAS",
+    "site": "Pala-Pala",
+    "siteRaw": "01_Pala-Pala",
+    "files": [
+      {
+        "filename": "Penyu Hijau_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "url": "/assets/api/05_DIVE SITES KARANG MUARAS/01_Pala-Pala/Penyu Hijau_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Penyu Hijau",
+          "location": "Pala Pala Karang Muaras · Dive Sites Karang Muaras",
+          "date": "15-05-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "url": "/assets/api/05_DIVE SITES KARANG MUARAS/01_Pala-Pala/Biodiversity_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Pala Pala Karang Muaras · Dive Sites Karang Muaras",
+          "date": "15-05-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Nurse Shark_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "url": "/assets/api/05_DIVE SITES KARANG MUARAS/01_Pala-Pala/Nurse Shark_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Nurse Shark",
+          "location": "Pala Pala Karang Muaras · Dive Sites Karang Muaras",
+          "date": "15-05-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Gorgonian_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "url": "/assets/api/05_DIVE SITES KARANG MUARAS/01_Pala-Pala/Gorgonian_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Gorgonian",
+          "location": "Pala Pala Karang Muaras · Dive Sites Karang Muaras",
+          "date": "15-05-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Hiu Belimbing_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "url": "/assets/api/05_DIVE SITES KARANG MUARAS/01_Pala-Pala/Hiu Belimbing_Pala-Pala_Karang Muaras_15-05-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Hiu Belimbing",
+          "location": "Pala Pala Karang Muaras · Dive Sites Karang Muaras",
+          "date": "15-05-2026",
+          "photographer": "Andy"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Kakaban Reef",
+    "siteRaw": "16_Kakaban Reef",
+    "files": [
+      {
+        "filename": "Table Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Table Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Table Coral",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Biodiversity_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Finger Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Finger Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Finger Coral",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Soft Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Soft Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Soft Coral",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Sea Fan_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Sea Fan_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Fan",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Marine Sponge_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Marine Sponge_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Marine Sponge",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Gorgonian_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Gorgonian_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Gorgonian",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Staghorn Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Staghorn Coral_kakaban reef_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Staghorn Coral",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_kakaban reef_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/16_Kakaban Reef/Biodiversity_kakaban reef_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Kakaban Reef · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Nirvana Paradise",
+    "siteRaw": "15_Nirvana Paradise",
+    "files": [
+      {
+        "filename": "Banner Fish_Nirvana Paradise_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/15_Nirvana Paradise/Banner Fish_Nirvana Paradise_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Banner Fish",
+          "location": "Nirvana Paradise Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_Nirvana Paradise_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/15_Nirvana Paradise/Biodiversity_Nirvana Paradise_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Nirvana Paradise Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Cabbage coral_Nirvana Paradise_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/15_Nirvana Paradise/Cabbage coral_Nirvana Paradise_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Cabbage Coral",
+          "location": "Nirvana Paradise Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "sisip kakaban",
+    "siteRaw": "14_sisip kakaban",
+    "files": [
+      {
+        "filename": "Melichthys niger-pogot hitam_sisip kakaban_kakaban_09-03-26_armindo.jpg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/14_sisip kakaban/Melichthys niger-pogot hitam_sisip kakaban_kakaban_09-03-26_armindo.jpg",
+        "type": "image",
+        "metadata": {
+          "species": "Melichthys Niger/pogot Hitam",
+          "location": "Sisip Kakaban Kakaban · Dive Sites Kakaban",
+          "date": "09-03-2026",
+          "photographer": "Armindo"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Kakaban Jetty",
+    "siteRaw": "13_Kakaban Jetty",
+    "files": [
+      {
+        "filename": "Spons laut- Xestospongia muta_kakaban jetty_kakaban_26-03-26_willi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/13_Kakaban Jetty/Spons laut- Xestospongia muta_kakaban jetty_kakaban_26-03-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Spons Laut/ Xestospongia Muta",
+          "location": "Kakaban Jetty Kakaban · Dive Sites Kakaban",
+          "date": "26-03-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Kelapa Dua",
+    "siteRaw": "10_Kelapa Dua",
+    "files": [
+      {
+        "filename": "Acropora_kelapa dua_kakaban_15-04-26_willi.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Acropora_kelapa dua_kakaban_15-04-26_willi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Acropora",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "15-04-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Coral Crab_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Coral Crab_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Crab",
+          "location": "Kelapadua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Ghost Pipefish_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Ghost Pipefish_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Ghost Pipefish",
+          "location": "Kelapadua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Phylidiella Hageni - nudibranch_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Phylidiella Hageni - nudibranch_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Phylidiella Hageni / Nudibranch",
+          "location": "Kelapadua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Nameteleotris magnifica- Bekut Api Merah-Fire Goby_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Nameteleotris magnifica- Bekut Api Merah-Fire Goby_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nameteleotris Magnifica/ Bekut Api Merah/fire Goby",
+          "location": "Kelapadua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "PhChomodoris Annae - nudibranch_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/PhChomodoris Annae - nudibranch_Kelapadua_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Phchomodoris Annae / Nudibranch",
+          "location": "Kelapadua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Terumbu Karang_kelapa dua_kakaban_14-03-25_Armindo.PNG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Terumbu Karang_kelapa dua_kakaban_14-03-25_Armindo.PNG",
+        "type": "image",
+        "metadata": {
+          "species": "Terumbu Karang",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "14-03-2025",
+          "photographer": "Armindo"
+        }
+      },
+      {
+        "filename": "Biodiversity_kelapa dua_kakaban_14-03-25_Armindo.PNG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Biodiversity_kelapa dua_kakaban_14-03-25_Armindo.PNG",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "14-03-2025",
+          "photographer": "Armindo"
+        }
+      },
+      {
+        "filename": "Thresher shark_kelapa dua_kakaban_08-03-26_armindo.jpg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Thresher shark_kelapa dua_kakaban_08-03-26_armindo.jpg",
+        "type": "image",
+        "metadata": {
+          "species": "Thresher Shark",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "08-03-2026",
+          "photographer": "Armindo"
+        }
+      },
+      {
+        "filename": "antennarius commerson- giant frogfish_kelapa dua_kakaban_04-03-26_yovi.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/antennarius commerson- giant frogfish_kelapa dua_kakaban_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Antennarius Commerson/ Giant Frogfish",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Phyllodesmium brigreum - nudibranch_Kelapadua_kakaban_04-03-26_yovi.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Phyllodesmium brigreum - nudibranch_Kelapadua_kakaban_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Phyllodesmium Brigreum / Nudibranch",
+          "location": "Kelapadua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "staghorn coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/staghorn coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Staghorn Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "Elkhorn coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Elkhorn coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Elkhorn Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "Honeycomb coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Honeycomb coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Honeycomb Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "Acropoda Yongei_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Acropoda Yongei_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Acropoda Yongei",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "Blue encrushting coral_ kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Blue encrushting coral_ kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Blue Encrushting Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "blueYellow Finger coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/blueYellow Finger coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Blueyellow Finger Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "Bubble coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Bubble coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Bubble Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      },
+      {
+        "filename": "Cactus coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/10_Kelapa Dua/Cactus coral_kelapa dua_kakaban_04-03-25_azman.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Cactus Coral",
+          "location": "Kelapa Dua Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2025",
+          "photographer": "Azman"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Tanjung Kelapa",
+    "siteRaw": "09_Tanjung Kelapa",
+    "files": [
+      {
+        "filename": "Sea Sponge_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Sea Sponge_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Sponge",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Table Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Table Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Table Coral",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Leather Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Leather Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Leather Coral",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Acropora_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Acropora_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Acropora",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Biodiversity_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Soft Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Soft Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Soft Coral",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Sea Anemone_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Sea Anemone_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Anemone",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Mushroom Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Mushroom Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Mushroom Coral",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Catch Bowl Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Catch Bowl Coral_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Catch Bowl Coral",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Sea Fan_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Sea Fan_Tanjung kelapa_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Fan",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Hard Coral_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Hard Coral_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Hard Coral",
+          "location": "Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biku biru semarak- Chromodoris annae- nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Biku biru semarak- Chromodoris annae- nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Biku Biru Semarak/ Chromodoris Annae/ Nudibranch",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Anemon laut_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Anemon laut_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Anemon Laut",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Chromodoeris Willani-Nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Chromodoeris Willani-Nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Chromodoeris Willani/nudibranch",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Phyllidia Varicosa- nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Phyllidia Varicosa- nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Phyllidia Varicosa/ Nudibranch",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Glossodoris-nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Glossodoris-nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Glossodoris/nudibranch",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Devilray_tanjung kelapa_kakaban_08-03-26_armindo.jpg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/Devilray_tanjung kelapa_kakaban_08-03-26_armindo.jpg",
+        "type": "image",
+        "metadata": {
+          "species": "Devilray",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "08-03-2026",
+          "photographer": "Armindo"
+        }
+      },
+      {
+        "filename": "helgerda carlsoni- nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/09_Tanjung Kelapa/helgerda carlsoni- nudibranch_tanjung kelapa_kakaban_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Helgerda Carlsoni/ Nudibranch",
+          "location": "Tanjung Kelapa Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Jelly Fish Lake",
+    "siteRaw": "08_Jelly Fish Lake",
+    "files": [
+      {
+        "filename": "Marine Sponge_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/08_Jelly Fish Lake/Marine Sponge_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Marine Sponge",
+          "location": "Jellyfish Lake Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Stingless Jellyfish_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/08_Jelly Fish Lake/Stingless Jellyfish_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Stingless Jellyfish",
+          "location": "Jellyfish Lake Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Ubur-ubur terbalik_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/08_Jelly Fish Lake/Ubur-ubur terbalik_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Ubur Ubur Terbalik",
+          "location": "Jellyfish Lake Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/08_Jelly Fish Lake/Biodiversity_Jellyfish Lake_kakaban_02-08-26_andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Jellyfish Lake Kakaban · Dive Sites Kakaban",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "Barracuda Point",
+    "siteRaw": "06_Barracuda Point",
+    "files": [
+      {
+        "filename": "coral reef__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/coral reef__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "biodiversity__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/biodiversity__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Acropora__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Acropora__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Acropora",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Sea Turtle__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Sea Turtle__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Turtle",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "kipas laut__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/kipas laut__barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Kipas Laut",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Anemon laut_barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Anemon laut_barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Anemon Laut",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Kipas laut- Gorgonian_barracuda point_kakaban_25-06-26_Andy.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Kipas laut- Gorgonian_barracuda point_kakaban_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Kipas Laut/ Gorgonian",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Spons barel raksasa- Xestospongia testudinaria_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Spons barel raksasa- Xestospongia testudinaria_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Spons Barel Raksasa/ Xestospongia Testudinaria",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "15-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Kipas laut- Gorgonian_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Kipas laut- Gorgonian_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Kipas Laut/ Gorgonian",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "15-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Biodiversity_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "15-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Ikan layar kambing- Heniocus Chrysostomus_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Ikan layar kambing- Heniocus Chrysostomus_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Ikan Layar Kambing/ Heniocus Chrysostomus",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "15-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Spons laut_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Spons laut_barracuda point_kakaban_15-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Spons Laut",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "15-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Porcelain Crab_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Porcelain Crab_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Porcelain Crab",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "06-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Bull Shark_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Bull Shark_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Bull Shark",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "06-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "ikan wrase sisir- Coris Picta_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/ikan wrase sisir- Coris Picta_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Ikan Wrase Sisir/ Coris Picta",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "06-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Phylidia babai- siput laut_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Phylidia babai- siput laut_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Phylidia Babai/ Siput Laut",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "06-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Nudibranch_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Nudibranch_barracuda point_kakaban_06-03-26_Yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nudibranch",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "06-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Jack fish- ikan kuwe_barracuda point_kakaban_09-03-26_armindo.jpg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/06_Barracuda Point/Jack fish- ikan kuwe_barracuda point_kakaban_09-03-26_armindo.jpg",
+        "type": "image",
+        "metadata": {
+          "species": "Jack Fish/ Ikan Kuwe",
+          "location": "Barracuda Point Kakaban · Dive Sites Kakaban",
+          "date": "09-03-2026",
+          "photographer": "Armindo"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES KAKABAN",
+    "regionRaw": "02_DIVE SITES KAKABAN",
+    "site": "The Wall",
+    "siteRaw": "03_The Wall",
+    "files": [
+      {
+        "filename": "orangutan crab_the wall_kakaban_04-03-26_yovi.jpeg",
+        "url": "/assets/api/02_DIVE SITES KAKABAN/03_The Wall/orangutan crab_the wall_kakaban_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Orangutan Crab",
+          "location": "The Wall Kakaban · Dive Sites Kakaban",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Second Channel",
+    "siteRaw": "29_Second Channel",
+    "files": [
+      {
+        "filename": "Elk Horn Coral_Second Channel_Maratua_02-08-26.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/29_Second Channel/Elk Horn Coral_Second Channel_Maratua_02-08-26.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Elk Horn Coral",
+          "location": "Second Channel Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": ""
+        }
+      },
+      {
+        "filename": "Table Coral_Second Channel_Maratua_02-08-26.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/29_Second Channel/Table Coral_Second Channel_Maratua_02-08-26.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Table Coral",
+          "location": "Second Channel Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": ""
+        }
+      },
+      {
+        "filename": "Biodiversity_Second Channel_Maratua_02-08-26.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/29_Second Channel/Biodiversity_Second Channel_Maratua_02-08-26.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Second Channel Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": ""
+        }
+      },
+      {
+        "filename": "Giant Tube Sponge_Second Channel_Maratua_02-08-26.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/29_Second Channel/Giant Tube Sponge_Second Channel_Maratua_02-08-26.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Giant Tube Sponge",
+          "location": "Second Channel Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": ""
+        }
+      },
+      {
+        "filename": "Coral Reefs_Second Channel_Maratua_02-08-26.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/29_Second Channel/Coral Reefs_Second Channel_Maratua_02-08-26.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reefs",
+          "location": "Second Channel Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": ""
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Macronesia Point",
+    "siteRaw": "28_Macronesia Point",
+    "files": [
+      {
+        "filename": "Staghorn Arcopora_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/28_Macronesia Point/Staghorn Arcopora_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Staghorn Arcopora",
+          "location": "Macronesia Point Maratua · Dive Sites Maratua",
+          "date": "26-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Coral Reef_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/28_Macronesia Point/Coral Reef_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef",
+          "location": "Macronesia Point Maratua · Dive Sites Maratua",
+          "date": "26-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/28_Macronesia Point/Biodiversity_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Macronesia Point Maratua · Dive Sites Maratua",
+          "date": "26-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "School Tuna_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/28_Macronesia Point/School Tuna_Macronesia Point_Maratua_26-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "School Tuna",
+          "location": "Macronesia Point Maratua · Dive Sites Maratua",
+          "date": "26-04-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Big Fish Country",
+    "siteRaw": "27_Big Fish Country",
+    "files": [
+      {
+        "filename": "Ikan Sebelah-Flounder_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/27_Big Fish Country/Ikan Sebelah-Flounder_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Ikan Sebelah/flounder",
+          "location": "Big Fish Country Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Giant Frogfish_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/27_Big Fish Country/Giant Frogfish_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Giant Frogfish",
+          "location": "Big Fish Country Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Pseudoceros-Nudibranch_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/27_Big Fish Country/Pseudoceros-Nudibranch_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Pseudoceros/nudibranch",
+          "location": "Big Fish Country Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Stomatopoda- udang mantis_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/27_Big Fish Country/Stomatopoda- udang mantis_Big Fish Country_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Stomatopoda/ Udang Mantis",
+          "location": "Big Fish Country Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Nembrotha Cristata-Nudibranch_Big Fish Country_Maratua_07-03-26_Yovi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/27_Big Fish Country/Nembrotha Cristata-Nudibranch_Big Fish Country_Maratua_07-03-26_Yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nembrotha Cristata/nudibranch",
+          "location": "Big Fish Country Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Wika point",
+    "siteRaw": "26_Wika point",
+    "files": [
+      {
+        "filename": "Penyu hijau_wika point_maratua_14-03-25_Armindo.PNG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/26_Wika point/Penyu hijau_wika point_maratua_14-03-25_Armindo.PNG",
+        "type": "image",
+        "metadata": {
+          "species": "Penyu Hijau",
+          "location": "Wika Point Maratua · Dive Sites Maratua",
+          "date": "14-03-2025",
+          "photographer": "Armindo"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Small Fish Country",
+    "siteRaw": "25_Small Fish Country",
+    "files": [
+      {
+        "filename": "Coral Reef3_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Coral Reef3_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef3",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity4_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Biodiversity4_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity4",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity3_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Biodiversity3_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity3",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Coral Reef2_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Coral Reef2_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef2",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Coral Reef_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Coral Reef_Small Fish Country_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Arcopora-karang tanduk rusa_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Arcopora-karang tanduk rusa_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Arcopora/karang Tanduk Rusa",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Kipas laut- gorgonian sp_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Kipas laut- gorgonian sp_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Kipas Laut/ Gorgonian Sp",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity2_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Biodiversity2_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity2",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Biodiversity_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Acropora_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/25_Small Fish Country/Acropora_Small Fish Country_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Acropora",
+          "location": "Small Fish Country Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Coral mountain bay",
+    "siteRaw": "24_Coral mountain bay",
+    "files": [
+      {
+        "filename": "Thresher shark_coral mountain bay_maratua_08-03-26_armindo.jpg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/24_Coral mountain bay/Thresher shark_coral mountain bay_maratua_08-03-26_armindo.jpg",
+        "type": "image",
+        "metadata": {
+          "species": "Thresher Shark",
+          "location": "Coral Mountain Bay Maratua · Dive Sites Maratua",
+          "date": "08-03-2026",
+          "photographer": "Armindo"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Turtle point",
+    "siteRaw": "23_Turtle point",
+    "files": [
+      {
+        "filename": "Pleurobranchus forskalii- nudibranch_turtle point_maratua_13-02-26_willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/23_Turtle point/Pleurobranchus forskalii- nudibranch_turtle point_maratua_13-02-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Pleurobranchus Forskalii/ Nudibranch",
+          "location": "Turtle Point Maratua · Dive Sites Maratua",
+          "date": "13-02-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Bumphead_tutrle point_maratua_13-03-26_willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/23_Turtle point/Bumphead_tutrle point_maratua_13-03-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Bumphead",
+          "location": "Tutrle Point Maratua · Dive Sites Maratua",
+          "date": "13-03-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Green Nirvana Jetty",
+    "siteRaw": "22_Green Nirvana Jetty",
+    "files": [
+      {
+        "filename": "Kepiting Harlequin -Lissocarcinus orbicularis_green nirvana jetty_maratua_13-03-26-willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/22_Green Nirvana Jetty/Kepiting Harlequin -Lissocarcinus orbicularis_green nirvana jetty_maratua_13-03-26-willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Kepiting Harlequin /lissocarcinus Orbicularis",
+          "location": "Green Nirvana Jetty Maratua · Dive Sites Maratua",
+          "date": "",
+          "photographer": "13/03/26/willi"
+        }
+      },
+      {
+        "filename": "cumi-cumi bobtail-Sepiolida_green nirvana jetty_maratua_13-03-26_willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/22_Green Nirvana Jetty/cumi-cumi bobtail-Sepiolida_green nirvana jetty_maratua_13-03-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Cumi Cumi Bobtail/sepiolida",
+          "location": "Green Nirvana Jetty Maratua · Dive Sites Maratua",
+          "date": "13-03-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "GNR Reef house",
+    "siteRaw": "21_GNR Reef house",
+    "files": [
+      {
+        "filename": "Elysia Crispata-Nudibranch_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Elysia Crispata-Nudibranch_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Elysia Crispata/nudibranch",
+          "location": "Gnr Reef House Maaratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Pleurobranchus-side-gill sea slug_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Pleurobranchus-side-gill sea slug_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Pleurobranchus/side Gill Sea Slug",
+          "location": "Gnr Reef House Maaratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Nudibranch_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Nudibranch_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nudibranch",
+          "location": "Gnr Reef House Maaratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Penyu Hijau_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Penyu Hijau_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Penyu Hijau",
+          "location": "Gnr Reef House Maaratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Morray Eel_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Morray Eel_GNR Reef house_maaratua_04-03-26_yovi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Morray Eel",
+          "location": "Gnr Reef House Maaratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Lembeh seadragon- pipe horse_GNR Reef house_maratua_04-03-26_yovi.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Lembeh seadragon- pipe horse_GNR Reef house_maratua_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Lembeh Seadragon/ Pipe Horse",
+          "location": "Gnr Reef House Maratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      },
+      {
+        "filename": "Caloria indica-sea slug_GNR Reef house_maaratua_04-03-26_yovi.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/21_GNR Reef house/Caloria indica-sea slug_GNR Reef house_maaratua_04-03-26_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Caloria Indica/sea Slug",
+          "location": "Gnr Reef House Maaratua · Dive Sites Maratua",
+          "date": "04-03-2026",
+          "photographer": "Yovi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Turtle Traffic",
+    "siteRaw": "17_Turtle Traffic",
+    "files": [
+      {
+        "filename": "Biodiversity_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/Biodiversity_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "cuttle fish_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/cuttle fish_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Cuttle Fish",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "coral reef_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/coral reef_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "sea turtle_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/sea turtle_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Turtle",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "ikan kelelawar_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/ikan kelelawar_Turtle traffict_Maratua_25-06-26_Andy.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Ikan Kelelawar",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Biodiversity_Turtle traffict_Maratua_25-06-26_Andy.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/Biodiversity_Turtle traffict_Maratua_25-06-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "25-06-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Choriaster granulatus_Turtle traffict_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/Choriaster granulatus_Turtle traffict_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Choriaster Granulatus",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Penyu hijau_Turtle traffict_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/Penyu hijau_Turtle traffict_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Penyu Hijau",
+          "location": "Turtle Traffict Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Halimeda ghost pipefish_turtle traffic_maratua_13-04-26_willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/17_Turtle Traffic/Halimeda ghost pipefish_turtle traffic_maratua_13-04-26_willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Halimeda Ghost Pipefish",
+          "location": "Turtle Traffic Maratua · Dive Sites Maratua",
+          "date": "13-04-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Maratua Reef",
+    "siteRaw": "15_Maratua Reef",
+    "files": [
+      {
+        "filename": "Coral reef_Maratua Reef_Maratua_25-05-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/15_Maratua Reef/Coral reef_Maratua Reef_Maratua_25-05-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral Reef",
+          "location": "Maratua Reef Maratua · Dive Sites Maratua",
+          "date": "25-05-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Giant Clam_Maratua Reef_Maratua_25-05-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/15_Maratua Reef/Giant Clam_Maratua Reef_Maratua_25-05-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Giant Clam",
+          "location": "Maratua Reef Maratua · Dive Sites Maratua",
+          "date": "25-05-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Maratua Reef_Maratua_25-05-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/15_Maratua Reef/Biodiversity_Maratua Reef_Maratua_25-05-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Maratua Reef Maratua · Dive Sites Maratua",
+          "date": "25-05-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Fusulier Paradise",
+    "siteRaw": "11_Fusulier Paradise",
+    "files": [
+      {
+        "filename": "Spons laut- Xestopongia testudinaria_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Spons laut- Xestopongia testudinaria_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Spons Laut/ Xestopongia Testudinaria",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "16-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Anemon_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Anemon_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Anemon",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "16-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Biodiversity_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "16-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Angelfish_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Angelfish_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Angelfish",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "16-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Acropora_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Acropora_Fusilier_Maratua_16-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Acropora",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "16-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Penyu Hijau_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Penyu Hijau_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Penyu Hijau",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "20-02-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Sea Anemon_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Sea Anemon_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Anemon",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "20-02-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Karang Meja- Tabulate Acropora_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Karang Meja- Tabulate Acropora_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Karang Meja/ Tabulate Acropora",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "20-02-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Sea Fan_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/11_Fusulier Paradise/Sea Fan_Fusilier_Maratua_20-02-26_Willi.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Fan",
+          "location": "Fusilier Maratua · Dive Sites Maratua",
+          "date": "20-02-2026",
+          "photographer": "Willi"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Hanging Garden",
+    "siteRaw": "10_Hanging Garden",
+    "files": [
+      {
+        "filename": "Biodiversity_Hanging Garden_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/10_Hanging Garden/Biodiversity_Hanging Garden_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Hanging Garden Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Kipas Laut_Hanging Garden_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/10_Hanging Garden/Kipas Laut_Hanging Garden_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Kipas Laut",
+          "location": "Hanging Garden Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Spons Laut_Hanging Garden_Maratua_15-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/10_Hanging Garden/Spons Laut_Hanging Garden_Maratua_15-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Spons Laut",
+          "location": "Hanging Garden Maratua · Dive Sites Maratua",
+          "date": "15-03-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Eel Garden",
+    "siteRaw": "09_Eel Garden",
+    "files": [
+      {
+        "filename": "Honeycomb moray_eel garden_maratua_09-03-26_armindo.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/09_Eel Garden/Honeycomb moray_eel garden_maratua_09-03-26_armindo.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Honeycomb Moray",
+          "location": "Eel Garden Maratua · Dive Sites Maratua",
+          "date": "09-03-2026",
+          "photographer": "Armindo"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Fantasy Wall",
+    "siteRaw": "08_Fantasy Wall",
+    "files": [
+      {
+        "filename": "Sea Turle_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/08_Fantasy Wall/Sea Turle_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Turle",
+          "location": "Fantasy Wall Maratua · Dive Sites Maratua",
+          "date": "20-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Elkhorn Coral_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/08_Fantasy Wall/Elkhorn Coral_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Elkhorn Coral",
+          "location": "Fantasy Wall Maratua · Dive Sites Maratua",
+          "date": "20-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/08_Fantasy Wall/Biodiversity_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Fantasy Wall Maratua · Dive Sites Maratua",
+          "date": "20-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Feather Star Coral_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/08_Fantasy Wall/Feather Star Coral_Fantasy Wall_Maratua_20-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Feather Star Coral",
+          "location": "Fantasy Wall Maratua · Dive Sites Maratua",
+          "date": "20-04-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Light House",
+    "siteRaw": "06_Light House",
+    "files": [
+      {
+        "filename": "Table Coral_Light House_Maratua_02-08-26_Andy.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Table Coral_Light House_Maratua_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Table Coral",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Giant Barrel Sponge_Light House_Maratua_02-08-26_Andy.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Giant Barrel Sponge_Light House_Maratua_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Giant Barrel Sponge",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Marine Sponge_Light House_Maratua_02-08-26_Andy.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Marine Sponge_Light House_Maratua_02-08-26_Andy.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Marine Sponge",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": "Andy"
+        }
+      },
+      {
+        "filename": "Sea Fan_Light House_Maratua_02-08-26_Andy.JPG.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Sea Fan_Light House_Maratua_02-08-26_Andy.JPG.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Sea Fan",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "02-08-2026",
+          "photographer": "Andy."
+        }
+      },
+      {
+        "filename": "Cora Reef_Light House_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Cora Reef_Light House_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Cora Reef",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Light House_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Biodiversity_Light House_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiveristy_Light House_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Biodiveristy_Light House_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiveristy",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Yellow Tube Sponge_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Yellow Tube Sponge_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Yellow Tube Sponge",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biodiversity_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Biodiversity_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Biku totol hijau- Nembrotha cristata_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Biku totol hijau- Nembrotha cristata_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biku Totol Hijau/ Nembrotha Cristata",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Coral_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/06_Light House/Coral_Light House_Maratua_20-03-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Coral",
+          "location": "Light House Maratua · Dive Sites Maratua",
+          "date": "20-03-2026",
+          "photographer": "Azmand"
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Gorgonzola",
+    "siteRaw": "05_Gorgonzola",
+    "files": [
+      {
+        "filename": "Biodiversity_Gorgonzola Point_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Biodiversity_Gorgonzola Point_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Biodiversity",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "School FIsh_Gorgonzola Point_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/School FIsh_Gorgonzola Point_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "School Fish",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Elkhorn Coral_Gorgonzola Point_Maratua_25-04-26_Azmand.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Elkhorn Coral_Gorgonzola Point_Maratua_25-04-26_Azmand.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Elkhorn Coral",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "25-04-2026",
+          "photographer": "Azmand"
+        }
+      },
+      {
+        "filename": "Platax pinnatus-Ikan Kelelawar_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Platax pinnatus-Ikan Kelelawar_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Platax Pinnatus/ikan Kelelawar",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Nucia Speciosa-Raspberry Crab_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Nucia Speciosa-Raspberry Crab_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nucia Speciosa/raspberry Crab",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Thor Amboinensis-Sexy Shrimp_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Thor Amboinensis-Sexy Shrimp_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Thor Amboinensis/sexy Shrimp",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Halgerda Batangas-Nudibranch_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Halgerda Batangas-Nudibranch_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Halgerda Batangas/nudibranch",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      },
+      {
+        "filename": "Nudibranch_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "url": "/assets/api/01_DIVE SITES MARATUA/05_Gorgonzola/Nudibranch_Gorgonzola Point_Maratua_07-03-26_Yovi.JPG.JPG",
+        "type": "image",
+        "metadata": {
+          "species": "Nudibranch",
+          "location": "Gorgonzola Point Maratua · Dive Sites Maratua",
+          "date": "07-03-2026",
+          "photographer": "Yovi."
+        }
+      }
+    ]
+  },
+  {
+    "region": "DIVE SITES MARATUA",
+    "regionRaw": "01_DIVE SITES MARATUA",
+    "site": "Channel",
+    "siteRaw": "01_Channel",
+    "files": [
+      {
+        "filename": "Barracuda2_channel_maratua_15-04-26_willi.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/01_Channel/Barracuda2_channel_maratua_15-04-26_willi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Barracuda2",
+          "location": "Channel Maratua · Dive Sites Maratua",
+          "date": "15-04-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Barracuda_channel_maratua_15-04-26_willi.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/01_Channel/Barracuda_channel_maratua_15-04-26_willi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Barracuda",
+          "location": "Channel Maratua · Dive Sites Maratua",
+          "date": "15-04-2026",
+          "photographer": "Willi"
+        }
+      },
+      {
+        "filename": "Chevron barracuda_channel_maratua_09-08-26_armindo.jpg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/01_Channel/Chevron barracuda_channel_maratua_09-08-26_armindo.jpg",
+        "type": "image",
+        "metadata": {
+          "species": "Chevron Barracuda",
+          "location": "Channel Maratua · Dive Sites Maratua",
+          "date": "09-08-2026",
+          "photographer": "Armindo"
+        }
+      },
+      {
+        "filename": "nembortha chrisata nudibranch_channel big country fish_maratua_04-03-24_yovi.jpeg",
+        "url": "/assets/api/01_DIVE SITES MARATUA/01_Channel/nembortha chrisata nudibranch_channel big country fish_maratua_04-03-24_yovi.jpeg",
+        "type": "image",
+        "metadata": {
+          "species": "Nembortha Chrisata Nudibranch",
+          "location": "Channel Big Country Fish Maratua · Dive Sites Maratua",
+          "date": "04-03-2024",
+          "photographer": "Yovi"
+        }
+      }
+    ]
+  }
+]

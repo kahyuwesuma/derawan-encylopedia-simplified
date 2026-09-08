@@ -104,8 +104,11 @@ async function fetchFromAPI() {
 
     groups.forEach(group => {
       group.files.forEach(f => {
-        let gridSrc = f.url;
         let fullSrc = f.url;
+        // Gunakan WebP thumbnail (hanya ~30-100 KB) untuk tampilan grid
+        let gridSrc = f.thumb || (f.url && f.url.startsWith('/assets/api/') 
+          ? f.url.replace('/assets/api/', '/assets/thumbs/').replace(/\.[^.]+$/, '.webp')
+          : f.url);
 
         // Deduplicate identical images across groups/sites
         const dedupeKey = (f.filename || f.url || '').toLowerCase().trim();
@@ -199,19 +202,30 @@ function renderGallery(items) {
     grid.innerHTML = '<p class="gallery-empty">No photos found in this category.</p>';
     return;
   }
-  grid.innerHTML = items.map((item, i) => {
+
+  // 3 Kolom flex seimbang dengan jumlah item sama rata
+  const cols = [[], [], []];
+
+  items.forEach((item, i) => {
     const { species, loc, credit } = wmLine(item);
     const alt = species || item.label || '';
-    return `<div class="gallery-item sr is-loaded ${DELAYS[i % 3]}" data-idx="${i}" tabindex="0" role="button" aria-label="${alt}">
-      <img src="${item.src}" alt="${alt}" decoding="async" class="loaded">
+    const html = `<div class="gallery-item sr is-loaded ${DELAYS[i % 3]}" data-idx="${i}" tabindex="0" role="button" aria-label="${alt}">
+      <img src="${item.src}" alt="${alt}" decoding="async" class="loaded" loading="lazy" onerror="if(this.src!=='${item.fullSrc}'){this.src='${item.fullSrc}';}">
       <div class="g-overlay">
         <i class="ph ph-arrows-out g-expand"></i>
         ${species ? `<span class="g-species">${species}</span>` : ''}
         ${loc ? `<span class="g-location">${loc}</span>` : ''}
         ${credit ? `<span class="g-rule"></span><span class="g-credit">${credit}</span>` : ''}
         <span class="g-brand">derawanencyclopedia.id</span>
-      </div></div>`;
-  }).join('');
+      </div>
+    </div>`;
+
+    // Distribusi bergantian: Kiri (0), Tengah (1), Kanan (2)
+    cols[i % 3].push(html);
+  });
+
+  grid.innerHTML = cols.map(colItems => `<div class="masonry-col">${colItems.join('')}</div>`).join('');
+
   if (window.observeSR) window.observeSR();
   grid.querySelectorAll('.gallery-item').forEach(el => {
     el.addEventListener('click', () => {
@@ -263,8 +277,10 @@ window.applyFilter = applyFilter;
 window.initGallery = initGallery;
 
 // Attach click listeners for filter buttons
-document.addEventListener('DOMContentLoaded', () => {
+function bindFilterButtons() {
   document.querySelectorAll('.filter-btn').forEach(btn => {
+    if (btn.dataset.filterBound) return;
+    btn.dataset.filterBound = 'true';
     btn.addEventListener('click', () => {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
@@ -272,7 +288,10 @@ document.addEventListener('DOMContentLoaded', () => {
       applyFilter(true);
     });
   });
-});
+}
+
+document.addEventListener('DOMContentLoaded', bindFilterButtons);
+document.addEventListener('includes:loaded', bindFilterButtons);
 
 // Event delegation for the Load More button click
 document.addEventListener('click', e => {

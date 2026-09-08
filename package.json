@@ -8,7 +8,8 @@
     "dev": "nodemon server.js",
     "build": "echo 'No build step required for vanilla Node.js'",
     "sync": "node scripts/sync-gdrive-local.js",
-    "generate": "node scripts/generate-gallery.js"
+    "generate": "node scripts/generate-gallery.js",
+    "thumbnails": "node scripts/generate-thumbnails.js"
   },
   "dependencies": {
     "chokidar": "^3.6.0",

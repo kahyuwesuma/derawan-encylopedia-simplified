@@ -63,7 +63,9 @@ derawan/
 │   ├── gallery.json              <-- Static fallback dataset untuk environment Vercel
 │   └── index.html                <-- Antarmuka Public Encyclopedia (~327 baris)
 ├── scripts/
-│   └── generate-gallery.js       <-- Script pra-generasi public/gallery.json untuk build Vercel
+│   ├── generate-thumbnails.js    <-- Script kompresi WebP ringan (~100KB) untuk grid galeri
+│   ├── generate-gallery.js       <-- Script pra-generasi public/gallery.json untuk build Vercel
+│   └── sync-gdrive-local.js      <-- Script download & sync Google Drive lokal
 ├── discuss/                      <-- Dokumen analisis & evaluasi arsitektur
 ├── .env.example                  <-- Template variabel lingkungan
 ├── .gitignore                    <-- Git ignore (termasuk kredensial sensitif)
@@ -121,12 +123,19 @@ SYNC_CRON_SCHEDULE="0 */6 * * *"
 > **Keamanan Kredensial:**  
 > Jangan pernah meng-commit file `.env` atau `gdrive-credentials.json` ke repository publik. File tersebut sudah masuk dalam daftar `.gitignore`.
 
-### 4. Jalankan Server Development
+### 4. Buat Thumbnail WebP Ringan (Optimasi Performa)
+Aset foto asli dari kamera berukuran sangat besar (5–8 MB per file). Untuk membuat loading galeri instan dan ringan, jalankan skrip pembuatan thumbnail WebP otomatis:
+```bash
+npm run thumbnails
+```
+Skrip ini akan memindai `public/assets/api/` dan mengompresi setiap gambar menjadi WebP (~30–120 KB, max-width 800px) di `public/assets/thumbs/`. Foto resolusi tinggi asli tetap dipertahankan dan hanya di-load saat pengunjung membuka Lightbox layar penuh.
+
+### 5. Jalankan Server Development
 ```bash
 npm run dev
 ```
 
-### 5. Akses Aplikasi di Browser
+### 6. Akses Aplikasi di Browser
 - **Public Encyclopedia & Galeri:** [http://localhost:3001](http://localhost:3001)
 - **Admin Console Dashboard:** [http://localhost:3001/admin](http://localhost:3001/admin)
 - **API Galeri:** [http://localhost:3001/api/gallery](http://localhost:3001/api/gallery)

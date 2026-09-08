@@ -105,23 +105,38 @@
   opacity: 1;
 }
 
-/* Masonry Grid Layout */
+/* Balanced Multi-Column Masonry Layout */
 .masonry {
-  columns: 3;
-  column-gap: 1.6rem;
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+  width: 100%;
 }
 
-@media(max-width: 900px) {
-  .masonry {
-    columns: 2;
-    column-gap: 1.2rem;
+.masonry-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* Kolom tengah berirama turun sedikit (staggered middle offset) */
+@media (min-width: 901px) {
+  .masonry-col:nth-child(2) {
+    padding-top: 3.5rem;
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 900px) {
   .masonry {
-    columns: 1;
-    column-gap: 0;
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry {
+    flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -138,6 +153,8 @@
   cursor: pointer;
   will-change: transform;
   contain: layout;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 /* Elegant subtle inner border to frame the photo */
@@ -161,9 +178,11 @@
   border-color: rgba(201, 168, 76, 0.35);
 }
 
-/* Image Slow-Zoom Transition */
+/* Image with Uniform Aspect Ratio & Slow-Zoom Transition */
 .gallery-item img {
   width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
   opacity: 1;
   transition: opacity 0.5s ease-out, transform 0.8s var(--ease3);
@@ -385,7 +404,7 @@
   }
   
   .masonry {
-    column-gap: 1rem;
+    gap: 1rem;
   }
   
   .filter-bar {
