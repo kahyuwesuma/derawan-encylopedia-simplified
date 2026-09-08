@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Derawan Archipelago | Visual Encyclopedia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=DM+Sans:wght@300;400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=DM+Sans:wght@300;400&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
   <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
-  
+
   <!-- Leaflet Maps API -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
   <!-- External Stylesheets -->
   <link rel="stylesheet" href="/css/variables.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components/gallery-grid.css?v=5">
+  <link rel="stylesheet" href="/css/main.css?v=5">
+  <link rel="stylesheet" href="/css/components/people-teaser.css">
 
   <!-- Modular Component Loader -->
-  <script src="/js/modules/includeLoader.js"></script>
+  <script src="/js/modules/includeLoader.js?v=5"></script>
 
   <!-- External JS Feature Modules -->
   <script src="/js/cursor.js" defer></script>
@@ -26,10 +31,12 @@
   <script src="/js/modules/slider.js" defer></script>
   <script src="/js/modules/watermark.js" defer></script>
   <script src="/js/modules/lightbox.js" defer></script>
+  <script src="/data/coordinates.js" defer></script>
   <script src="/js/modules/map.js" defer></script>
-  <script src="/js/modules/galleryApi.js" defer></script>
-  <script src="/js/gallery.js" defer></script>
+  <script src="/js/modules/galleryApi.js?v=7" defer></script>
+  <script src="/js/gallery.js?v=7" defer></script>
 </head>
+
 <body>
   <div id="wipe"></div>
   <div id="cur"></div>
@@ -46,10 +53,12 @@
   <div data-include="/includes/explore.html"></div>
   <div data-include="/includes/gallery.html"></div>
   <div data-include="/includes/conservation.html"></div>
+  <div data-include="/includes/people-teaser.html"></div>
   <div data-include="/includes/depth.html"></div>
   <div data-include="/includes/guide.html"></div>
   <div data-include="/includes/stay.html"></div>
   <div data-include="/includes/overlays.html"></div>
   <div data-include="/includes/footer.html"></div>
 </body>
+
 </html>

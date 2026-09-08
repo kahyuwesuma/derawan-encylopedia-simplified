@@ -7,3 +7,4 @@ gen-lang-client-*.json
 public/sync-status.json
 discuss/*
 public/assets/api/**/*
+public/assets/thumbs/**/*

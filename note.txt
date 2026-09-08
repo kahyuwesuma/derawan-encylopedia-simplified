@@ -1,0 +1,577 @@
+# Prompt: Improve & Expand Derawan Encyclopedia Website
+
+Saya sedang mengembangkan **Derawan Encyclopedia**, dan project/struktur website yang sudah ada **HARUS dipertahankan**. Jangan membuat project baru, jangan mengubah framework utama, dan jangan melakukan refactor besar yang tidak diperlukan.
+
+Tugas utama adalah **mengembangkan fitur dan halaman baru berdasarkan struktur, design system, komponen, dan pola arsitektur yang sudah tersedia di project saat ini**.
+
+## Prinsip Utama
+
+* Gunakan struktur project yang sudah ada.
+* Pertahankan desain visual website yang sudah berjalan.
+* Reuse komponen existing sebanyak mungkin.
+* Jangan membuat UI yang terlihat seperti berasal dari website berbeda.
+* Ikuti typography, color palette, spacing, card style, animation, navigation, responsive behavior, dan visual language yang sudah digunakan.
+* Jangan menghapus atau merusak fitur yang sudah berjalan.
+* Jika membutuhkan komponen baru, buat mengikuti pola komponen existing.
+* Buat implementasi yang scalable sehingga data dapat diperbarui tanpa perlu mengubah layout secara manual.
+* Gunakan placeholder untuk informasi/foto yang masih belum tersedia.
+* Semua konten yang statusnya masih TBC atau belum dikonfirmasi jangan dianggap sebagai informasi final.
+
+---
+
+# 1. Tambahkan Halaman Management / Contributors
+
+Buat halaman baru untuk menampilkan pihak-pihak yang terlibat dalam pengembangan, penelitian, konservasi, dokumentasi, dan pengelolaan Derawan Encyclopedia.
+
+Nama halaman dapat disesuaikan dengan struktur navigasi existing, misalnya:
+
+**Management & Contributors**
+
+atau
+
+**People Behind Derawan Encyclopedia**
+
+Jangan menentukan nama final secara kaku apabila website sudah memiliki naming convention sendiri.
+
+Halaman harus menggunakan layout yang sudah ada dan dibuat sebagai kumpulan beberapa section berdasarkan kategori.
+
+---
+
+## Founder
+
+Tampilkan Founder sebagai **featured/primary profile**, sehingga memiliki visual hierarchy lebih kuat dibanding anggota lainnya.
+
+### Dr. Dadang Mujiono
+
+* GC Director of Indonesia
+* Chairman of YLBKD
+
+---
+
+# Advisory Board
+
+Tampilkan menggunakan grid/card yang konsisten dengan design system existing.
+
+### Jeff Morgan
+
+GC Executive Director
+
+### Prof. Mike Sutton
+
+GC Advisor
+Goldman Environmental Prize Award Executive Director
+
+### Dr. Lida Teneva
+
+GC Advisor
+One Reef Chief Executive Officer
+Mary G. Jamieson Foundation Board of Trustees
+
+### Dr. Jos Pet
+
+People & Nature Consulting International
+
+### Mdm. Tri Murti
+
+Former Deputy of East Kalimantan – Seychelles Cooperation Acceleration Team
+
+### Indra Mahardika, S.E.
+
+Chief of Derawan Island
+
+### Rico, S.IP.
+
+Chief of Payung-Payung Island Village, Maratua
+
+---
+
+# Editorial Board & Web Developer
+
+### Wahyu K. Bakti, S.Kom.
+
+YLBKD IT Specialist and Web Developer
+
+### Zenobia Z. Helza, M.M.
+
+GC Protection Coordinator of Derawan Island
+
+### Entersten Sitepu, S.H.
+
+GC Protection Coordinator of Maratua Island
+
+---
+
+# Underwater Contributors
+
+Data sementara:
+
+### Andi
+
+Information/photo TBC
+
+### Azman
+
+### Yovi
+
+### Willy
+
+### Kelvin
+
+Coral Planters of Derawan Island
+
+Jika nama atau informasi belum lengkap, jangan mengarang data. Gunakan placeholder seperti:
+
+**Information coming soon**
+
+atau **Profile details to be confirmed**.
+
+---
+
+# Landscape Contributors
+
+Data masih belum tersedia.
+
+Buat section dan struktur datanya terlebih dahulu dengan placeholder.
+
+Contoh:
+
+* Contributor TBD
+* Contributor TBD
+
+Section harus tetap terlihat profesional meskipun datanya belum lengkap.
+
+---
+
+# Scientific Contributors
+
+### Dr. Dadang Mujiono
+
+### Dr. Muhclis Effendi
+
+Status: TBC
+
+### Dr. Adnan Kariming
+
+Status: TBC
+
+### Dr. Yayuk Anggraini
+
+### Dr. Muhammad Arifin
+
+### Tendy, M.Si.
+
+### Ziya Ibrizah, M.I.Kom.
+
+### Rahmah Daniah, M.Si.
+
+### Zenobia Z. Helza, M.M.
+
+---
+
+# Community Custodians
+
+Section ini harus memberikan visual emphasis terhadap masyarakat lokal yang memiliki pengetahuan, sejarah, pengalaman, dan peran penting dalam kawasan Derawan.
+
+### Miharta
+
+Son of the late Mr. Umrah of Derawan Island
+
+### Haji Jubair
+
+Derawan Island
+
+### Abdul Gaffar / Gappang
+
+Derawan Island
+
+### Samsul
+
+Ayah dari Asroy — detail lengkap masih perlu dikonfirmasi.
+
+Jangan mengasumsikan nama lengkap atau informasi lain.
+
+### Pak Nawir / Bolo
+
+Maratua Island
+
+### Adji Suhaidi
+
+Gunung Tabur
+Nephew of the late H.M. Sultan of Gunung Tabur
+
+Tambahkan struktur agar anggota Community Custodians lainnya dapat ditambahkan kemudian.
+
+---
+
+# Profile Photos
+
+Semua individu di atas nantinya harus memiliki foto.
+
+Untuk sementara:
+
+* siapkan image placeholder yang mengikuti desain website;
+* jangan menggunakan foto random yang dapat menimbulkan kesalahan identitas;
+* gunakan label `Photo Coming Soon` atau mekanisme placeholder yang sesuai dengan design system;
+* struktur data harus sudah mendukung penggantian foto dengan mudah.
+
+Pastikan setiap foto memiliki:
+
+* proper aspect ratio;
+* `alt` text;
+* responsive sizing;
+* lazy loading;
+* fallback image apabila file tidak tersedia.
+
+---
+
+# 2. Integrasi / Referensi Allen Coral Atlas
+
+Tambahkan bagian khusus pada Derawan Encyclopedia yang mengarahkan pengguna ke **Allen Coral Atlas**:
+
+[Allen Coral Atlas](https://allencoralatlas.org/?utm_source=chatgpt.com)
+
+Allen Coral Atlas merupakan platform pemantauan kesehatan terumbu karang global yang dikembangkan oleh tim yang dipimpin oleh Dr. Greg Asner.
+
+Tujuan integrasi:
+
+> Ketika pengguna ingin mengetahui kondisi atau kesehatan terumbu karang, Derawan Encyclopedia dapat memberikan rujukan ke Allen Coral Atlas sebagai sumber informasi eksternal.
+
+## Penting
+
+Jangan langsung membuat asumsi bahwa Allen Coral Atlas menyediakan API atau endpoint tertentu.
+
+Pertama, periksa kemampuan integrasi yang tersedia.
+
+Jika tersedia API/embed/deep-link resmi, gunakan mekanisme tersebut.
+
+Jika tidak tersedia, implementasikan sebagai **external reference/integration page** yang tetap terasa sebagai bagian dari Derawan Encyclopedia.
+
+Contoh konsep:
+
+### Coral Reef Health
+
+Berikan introductory text singkat mengenai pemantauan kesehatan terumbu karang.
+
+Kemudian tampilkan:
+
+* preview/visual yang diperbolehkan;
+* tombol **Explore Allen Coral Atlas**;
+* link ke Allen Coral Atlas;
+* optional external-link indicator.
+
+Jika memungkinkan secara teknis dan legal, sediakan deep link ke wilayah Derawan sehingga pengguna dapat langsung melihat area yang relevan.
+
+**Jangan melakukan scraping atau menyalin data Allen Coral Atlas tanpa memastikan izin/ketentuan penggunaannya.**
+
+---
+
+# 3. Marine Bathymetry / Sea Depth Map
+
+Tambahkan halaman atau section khusus untuk **peta kedalaman laut Derawan**.
+
+Data bathymetry akan diberikan kemudian oleh stakeholder.
+
+Untuk tahap sekarang:
+
+* siapkan layout;
+* siapkan map container;
+* siapkan data structure;
+* siapkan placeholder dataset;
+* jangan membuat data kedalaman fiktif.
+
+Halaman harus dirancang agar nantinya dapat menerima data seperti:
+
+* GeoJSON
+* GeoTIFF
+* raster tiles
+* vector tiles
+* atau format geospatial lain yang sesuai dengan data yang diberikan.
+
+Jika data memungkinkan, tampilkan:
+
+* depth visualization;
+* legend;
+* zoom;
+* pan;
+* layer control;
+* coordinate information jika relevan;
+* optional depth query ketika user mengklik area tertentu.
+
+Gunakan teknologi mapping yang **sudah digunakan project**, jika ada.
+
+Jangan menambahkan library geospatial baru jika functionality tersebut dapat dilakukan dengan library yang sudah tersedia.
+
+---
+
+# 4. Ship Traffic / Marine Traffic Map
+
+Tambahkan halaman/section untuk menampilkan:
+
+**Marine Traffic / Ship Routes**
+
+Data jalur dan lalu lintas kapal akan diberikan kemudian.
+
+Untuk sekarang, buat:
+
+* map layout;
+* layer structure;
+* legend;
+* placeholder state;
+* data model;
+* responsive map container.
+
+Nantinya sistem harus dapat menampilkan informasi seperti:
+
+* vessel routes;
+* shipping lanes;
+* vessel traffic density;
+* movement patterns;
+* relevant maritime zones.
+
+Jangan membuat data kapal atau jalur fiktif.
+
+Gunakan hanya data yang diberikan atau sumber data yang memang memiliki izin untuk digunakan.
+
+---
+
+# 5. Konsep Navigasi
+
+Integrasikan fitur baru ke navigasi Derawan Encyclopedia yang sudah ada.
+
+Kemungkinan struktur:
+
+**Derawan Encyclopedia**
+
+* Explore
+* Species
+* Dive Sites
+* Ecosystems
+* Maps
+* People / Management
+
+Namun **jangan memaksakan struktur tersebut** jika project existing sudah memiliki navigation architecture sendiri.
+
+Gunakan pola navigasi yang sudah ada.
+
+---
+
+# 6. Suggested Information Architecture
+
+Secara konseptual, Derawan Encyclopedia nantinya dapat memiliki beberapa knowledge layers:
+
+### Encyclopedia
+
+Informasi mengenai:
+
+* species
+* ecosystems
+* habitats
+* dive sites
+* islands
+* conservation areas
+
+### Maps
+
+Informasi geografis:
+
+* locations
+* dive sites
+* bathymetry
+* marine traffic
+* conservation zones
+
+### Coral Health
+
+External reference/integration:
+
+* Allen Coral Atlas
+* coral health information
+* reef monitoring
+
+### People
+
+Manusia di balik konservasi:
+
+* Founder
+* Advisory Board
+* Editorial Board
+* Scientific Contributors
+* Underwater Contributors
+* Landscape Contributors
+* Community Custodians
+
+Struktur ini hanya merupakan konsep informasi. Implementasikan mengikuti architecture yang sudah ada.
+
+---
+
+# 7. Data Architecture
+
+Karena daftar contributor masih berkembang, jangan hardcode seluruh profile langsung di component.
+
+Gunakan data-driven architecture.
+
+Contoh struktur konseptual:
+
+```text
+contributors
+├── founder
+├── advisory-board
+├── editorial-board
+├── underwater-contributors
+├── landscape-contributors
+├── scientific-contributors
+└── community-custodians
+```
+
+Setiap contributor minimal memiliki:
+
+```text
+id
+name
+role
+organization
+category
+location
+description
+photo
+status
+sortOrder
+featured
+```
+
+`status` dapat digunakan untuk:
+
+* confirmed
+* TBC
+* coming-soon
+
+Pastikan struktur tersebut mengikuti pola data/API/CMS yang sudah digunakan oleh project.
+
+---
+
+# 8. UI/UX Requirements
+
+Halaman harus terasa seperti bagian dari **Derawan Encyclopedia**, bukan landing page terpisah.
+
+Gunakan:
+
+* existing header;
+* existing footer;
+* existing typography;
+* existing color palette;
+* existing cards;
+* existing buttons;
+* existing animation;
+* existing responsive breakpoints;
+* existing spacing system.
+
+Prioritaskan:
+
+**visual hierarchy → readability → photography → information architecture → responsiveness.**
+
+Foto harus menjadi elemen visual penting karena halaman ini berhubungan dengan people, contributors, dan community custodians.
+
+---
+
+# 9. Responsive Design
+
+Pastikan semua halaman bekerja dengan baik pada:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Untuk contributor cards:
+
+Desktop:
+
+* multi-column grid
+
+Tablet:
+
+* responsive grid
+
+Mobile:
+
+* single/two-column sesuai design system existing
+
+Jangan menggunakan fixed dimensions yang menyebabkan overflow.
+
+Map harus dapat digunakan dengan nyaman pada mobile.
+
+---
+
+# 10. Content Accuracy
+
+Ini sangat penting.
+
+Beberapa informasi di atas masih merupakan catatan sementara.
+
+Oleh karena itu:
+
+* jangan memperluas jabatan seseorang;
+* jangan menambahkan organisasi yang tidak disebutkan;
+* jangan mengarang biography;
+* jangan mengarang foto;
+* jangan mengubah nama;
+* jangan menganggap TBC sebagai informasi final;
+* jangan menghapus informasi hanya karena belum lengkap.
+
+Jika ada informasi yang belum jelas, gunakan:
+
+**TBC / To Be Confirmed**
+
+atau placeholder yang sesuai.
+
+---
+
+# 11. Implementation Strategy
+
+Sebelum melakukan perubahan:
+
+1. Inspect seluruh struktur project.
+2. Identifikasi framework dan architecture.
+3. Identifikasi existing routes/pages.
+4. Identifikasi design system.
+5. Identifikasi reusable components.
+6. Identifikasi sumber data/API/CMS.
+7. Identifikasi existing image/storage system.
+8. Identifikasi existing map/geospatial implementation jika ada.
+9. Gunakan komponen dan pola existing sebelum membuat komponen baru.
+
+Kemudian implementasikan secara incremental:
+
+### Phase 1
+
+Management / Contributors page.
+
+### Phase 2
+
+Allen Coral Atlas reference/integration.
+
+### Phase 3
+
+Bathymetry map infrastructure.
+
+### Phase 4
+
+Marine traffic / ship route map infrastructure.
+
+### Phase 5
+
+Polish, responsive testing, accessibility, performance, dan SEO.
+
+---
+
+# 12. Final Requirement
+
+**Jangan redesign Derawan Encyclopedia.**
+
+Yang diminta adalah:
+
+> **Improve and expand the existing Derawan Encyclopedia by adding the Management & Contributors section, Coral Health reference/integration, Bathymetry Map, and Marine Traffic Map while preserving the existing design system and project architecture.**
+
+Gunakan data yang tersedia sekarang, tetapi buat seluruh implementasi **future-proof**, karena foto, nama contributor, data scientific contributor, community custodians, bathymetry, dan ship traffic dataset akan terus diperbarui.
+
+Untuk data yang belum tersedia, **buat layout dan infrastructure-nya terlebih dahulu tanpa membuat data palsu.**
