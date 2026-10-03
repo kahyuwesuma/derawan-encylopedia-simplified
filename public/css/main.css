@@ -1,5 +1,6 @@
 /* Main CSS Bundle using Component Imports */
 @import url('./components/hero.css');
+@import url('./components/splash.css');
 @import url('./components/islands-slider.css');
 @import url('./components/gallery-grid.css?v=2');
 @import url('./components/lightbox.css');

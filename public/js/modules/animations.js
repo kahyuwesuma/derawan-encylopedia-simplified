@@ -64,11 +64,25 @@ function rafThrottle(fn) {
 window.observeSR = observeSR;
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Page Wipe Out
-  setTimeout(() => {
-    const wipe = document.getElementById('wipe');
-    if (wipe) wipe.classList.add('out');
-  }, 80);
+  // Splash Screen / Page Wipe Out
+  const wipe = document.getElementById('wipe');
+  const enterBtn = document.getElementById('enter-btn');
+
+  if (wipe && enterBtn) {
+    // Check if already shown this session
+    if (sessionStorage.getItem('splashShown')) {
+      wipe.classList.add('out');
+      wipe.style.display = 'none'; // Optional: remove from flow
+    } else {
+      enterBtn.addEventListener('click', () => {
+        wipe.classList.add('out');
+        sessionStorage.setItem('splashShown', 'true');
+      });
+    }
+  } else if (wipe) {
+    // Fallback if button not found
+    setTimeout(() => wipe.classList.add('out'), 1000);
+  }
 
   const initAnimations = () => {
     // Scroll reveal observe

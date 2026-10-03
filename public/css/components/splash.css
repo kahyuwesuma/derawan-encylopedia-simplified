@@ -1,0 +1,67 @@
+/* Splash / Loading Screen Styles */
+#splash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color: var(--sand);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.8s var(--ease2);
+}
+
+#wipe.out #splash-content {
+    opacity: 0;
+}
+
+.splash-logo {
+    width: 320px;
+    height: auto;
+    margin-bottom: 2.5rem;
+    filter: drop-shadow(0 0 15px rgba(201, 168, 76, 0.3));
+    animation: pulseLogo 3s ease-in-out infinite;
+}
+
+@keyframes pulseLogo {
+    0%, 100% { transform: scale(1); opacity: 0.9; }
+    50% { transform: scale(1.05); opacity: 1; }
+}
+
+.splash-btn {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 1rem 2.5rem;
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s var(--ease2);
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.splash-btn:hover {
+    background: var(--gold);
+    color: var(--deep);
+    box-shadow: 0 0 30px rgba(201, 168, 76, 0.2);
+}
+
+.splash-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.splash-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold-l);
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}

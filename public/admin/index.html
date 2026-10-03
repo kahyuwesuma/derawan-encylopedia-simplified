@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Derawan Archipelago | Admin Console</title>
+  <title>Maratua Archipelago | Admin Console</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&family=Jost:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -32,13 +32,13 @@
       <div class="login-card">
         <div class="mono gold" style="margin-bottom: 0.5rem;">[ Restricted Console ]</div>
         <h2>ADMIN AUTHENTICATION</h2>
-        <p>Silakan masukkan kata sandi administrator untuk mengelola sinkronisasi Google Drive.</p>
+        <p>Please enter the administrator password to manage Google Drive synchronization.</p>
 
         <form onsubmit="handleLogin(event)">
           <div class="form-group">
             <label class="mono gold">ADMIN PASSWORD</label>
             <input type="password" id="passwordInput" class="input-field" placeholder="••••••••" required autofocus>
-            <div id="loginError" class="error-msg">Password tidak valid. Silakan coba lagi.</div>
+            <div id="loginError" class="error-msg">Invalid password. Please try again.</div>
           </div>
           <button type="submit" id="btnLoginSubmit" class="btn btn-gold" style="width: 100%; justify-content: center;">
             AUTHENTICATE CONSOLE ↗
@@ -55,7 +55,7 @@
     <div id="dashboardScreen">
       <header>
         <div>
-          <div class="mono brand-subtitle">[ Derawan Archipelago Encyclopedia ]</div>
+          <div class="mono brand-subtitle">[ Maratua Archipelago Encyclopedia ]</div>
           <h1 class="brand-title">ADMIN CONSOLE</h1>
         </div>
         <div class="nav-actions">
